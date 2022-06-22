@@ -92,6 +92,11 @@
     
     header {
         position: relative;
+    }
+    
+    .header__content {
+        position: fixed;
+        z-index: 10;
         background: #0F0F0F;
         width: 100%;
         max-width: 1920px;
@@ -104,7 +109,7 @@
     
     .navbar .navbar-nav .nav-link {
         font-size: 14px;
-        /* Font cũ là 20px */
+        /* 20px */
         line-height: 24px;
         padding: 0 16px;
         color: #FFFFFF;
@@ -145,24 +150,24 @@
     
     .banner .banner__content p:first-child {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 29px;
+        font-size: 20px;
+        line-height: 20px;
         font-family: "Msr-Light";
     }
     
-    .banner .banner__content span {
+    .banner .banner__content .text-egitech {
         font-family: "Msr-SemiBold";
     }
     
     .banner .banner__content h1 {
-        font-weight: 700;
-        font-size: 80px;
-        line-height: 92px;
-        font-family: "Msr-SemiBold";
+        font-size: 63px;
+        line-height: 75px;
+        font-family: "Msr-Bold";
+        margin-bottom: 60px;
     }
     
     .banner .banner__content p:last-child {
-        transform: translateY(200px);
+        transform: translateY(130px);
         font-family: "Msr-Light";
     }
     /* INFO */
@@ -186,6 +191,11 @@
     
     .ourServices .ourServices__content .serv__item {
         padding: 0 20px;
+    }
+    
+    .ourServices .ourServices__content .serv__item .serv__item__content {
+        height: 355px;
+        position: relative;
     }
     /* QUOTES */
     
@@ -313,7 +323,7 @@
         position: relative;
     }
     
-    .faq .faq__content span::before {
+    .faq .faq__content .plus::before {
         content: "";
         height: 2px;
         width: 20px;

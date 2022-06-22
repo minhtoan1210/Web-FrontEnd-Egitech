@@ -21,49 +21,51 @@
 <body>
     <!-- Header -->
     <header>
-        <!--  -->
-        <nav class="navbar navbar-expand-lg  container  ">
 
-            <a class="navbar-brand p-0" href="#"> <img src="./img/EgitechLogo.png" alt="logoEgitech"> </a>
-            <span class="toggler__icon"></span>
+        <div class="header__content">
+            <nav class="navbar navbar-expand-lg  container  ">
 
-            <div class="nav__content ms-auto">
+                <a class="navbar-brand p-0" href="#"> <img src="./img/EgitechLogo.png" alt="logoEgitech"> </a>
+                <span class="toggler__icon"></span>
 
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SOLUTION</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CARRER</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-            </div>
+                <div class="nav__content ms-auto">
+
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SOLUTION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CARRER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </div>
         </nav>
+        </div>
     </header>
     <!-- Banner -->
-    <section class="banner">
+    <section class="banner ">
         <div class="banner__content-img">
             <img class="img-fluid" src="img/Rectangle 3.png" alt="" srcset="">
         </div>
-        <div class="banner__content container-fluid">
-            <p>Welcome to <span>EGITECH</span></p>
+        <div class="banner__content container">
+            <p>Welcome to <span class="text-egitech">EGITECH</span></p>
             <h1>Full cycle Software Development From Idea to Product</h1>
             <p>Scroll down to see more</p>
         </div>
@@ -95,23 +97,36 @@
         <div class="ourServices__content container ">
             <div class="row">
                 <div class="serv__item col-4 ">
-                    <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (1).png" alt="servic1"></div>
-                    <h3 class="white__heading3">Web App Development</h3>
-                    <p class="gray__para">Our team of skilled web developers provides expert web application and design services that are secure, stable, scalable, and allow access from anywhere, at any time.</p>
+                    <div class="serv__item__content">
+                        <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (1).png" alt="servic1"></div>
+                        <h3 class="white__heading3">Web App Development</h3>
+                        <p class="gray__para">Our team of skilled web developers provides expert web application and design services that are secure, stable, scalable, and allow access from anywhere, at any time.</p>
+                    </div>
+
                     <button class="blue__btn">Learn More</button>
                 </div>
                 <div class="serv__item col-4">
-                    <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (2).png" alt="servic2"></div>
-                    <h3 class="white__heading3">Mobile App Development</h3>
-                    <p class="gray__para">We design and implement cost-effective mobile application solutions, with the aim of helping you to fully capitalize on your resources to achieve maximum returns.</p>
+                    <div class="serv__item__content">
+                        <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (2).png" alt="servic2"></div>
+                        <h3 class="white__heading3">Mobile App Development</h3>
+                        <p class="gray__para">We design and implement cost-effective mobile application solutions, with the aim of helping you to fully capitalize on your resources to achieve maximum returns.</p>
+                    </div>
+
                     <button class="blue__btn">Learn More</button>
                 </div>
                 <div class="serv__item col-4">
-                    <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (3).png" alt="servic3"></div>
-                    <h3 class="white__heading3">Blockchain Development</h3>
-                    <p class="gray__para">Our team offers expertise and brings in the latest technologies in blockchain and distributed ledger technology to asset accomplishing your specific blockchain development objectives.</p>
+                    <div class="serv__item__content">
+                        <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (3).png" alt="servic3"></div>
+                        <h3 class="white__heading3">Blockchain Development</h3>
+                        <p class="gray__para">Our team offers expertise and brings in the latest technologies in blockchain and distributed ledger technology to asset accomplishing your specific blockchain development objectives.</p>
+                    </div>
                     <button class="blue__btn">Learn More</button>
                 </div>
+                <!-- <div class="serv__btn d-flex">
+                    <div class="col-4"><button class="blue__btn">Learn More</button></div>
+                    <div class="col-4"><button class="blue__btn">Learn More</button></div>
+                    <div class="col-4"><button class="blue__btn">Learn More</button></div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -119,9 +134,9 @@
     <section class="quotes section">
         <h2 class="white__heading2">Hear From Our Clients</h2>
 
-        <!-- Flickity HTML init -->
+        <!-- ='{ "autoPlay": true }' -->
 
-        <div class=" quotes__content carousel  " data-flickity>
+        <div class=" quotes__content carousel " data-flickity='{ "autoPlay":10000 }'>
             <div class="carousel-cell text-center">
                 <img src="./img/sign.png" alt="sign">
                 <p class="white__para">Patience. Ininite patience. No shortcuts. Very well thought out and articulate commuinication. Clear milestones, deadlines and fast work. even if the client is being careless.</p>
@@ -189,7 +204,7 @@
                         <p> We take the time to get to know everything we need about you, to get your project managed to successful completion, as we ensure that all our processes and tools are adapted to suit not only your resources, but for the short and
                             long-term goals of your business </p>
                     </div>
-                    <button class="blue__btn">Learn More</button>
+
                 </div>
 
             </div>
@@ -212,7 +227,7 @@
                         <p> Egitech is the partner of choice for many of the world's leading businesses, SMEs and technology challengers. We help businesses increase their value through custom software development, product design, QA, and consulting services.
                             Trust us, we will help you make your dreams come true. </p>
                     </div>
-                    <button class="blue__btn">Learn More</button>
+
                 </div>
 
             </div>
@@ -234,7 +249,7 @@
                     <div class="faq__awsDetail  ">
                         <p> Egitech provides expertise and brings the latest in blockchain and distributed ledger technology to help you accomplish your specific blockchain development goals </p>
                     </div>
-                    <button class="blue__btn">Learn More</button>
+
                 </div>
 
             </div>
@@ -256,7 +271,7 @@
                     <div class="faq__awsDetail  ">
                         <p> Egitech will help expand your banking network and increase financial inclusion by providing branchless banking services to all banked as well as unbanked populations through our agency banking solution. </p>
                     </div>
-                    <button class="blue__btn">Learn More</button>
+
                 </div>
 
             </div>
@@ -297,7 +312,9 @@
 
     <!-- flickity -->
     <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
-    <script src="./js/flickity-docs.min.js"></script>
+    <script src="./libs/flickity-docs.min.js"></script>
+
+
 
 </body>
 
