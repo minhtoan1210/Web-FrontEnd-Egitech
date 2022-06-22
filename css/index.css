@@ -15,8 +15,8 @@
         background: #0F0F0F;
     }
     
-    .container__custom {
-        width: 70%;
+    .container {
+        width: 75%;
         margin: auto;
     }
     
@@ -300,6 +300,10 @@
         padding: 0 20px;
     }
     /* FAQ */
+    
+    .faq {
+        padding-bottom: 64px;
+    }
     
     .faq .faq__content span.plus {
         display: inline-block;
