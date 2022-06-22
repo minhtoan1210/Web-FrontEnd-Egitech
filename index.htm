@@ -8,16 +8,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
-
-
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-
     <!-- Main Css -->
     <link rel="stylesheet" href="./css/index.css">
     <!-- Font Css -->
     <link rel="stylesheet" href="./css/fonts.css">
-
+    <!-- Flickity CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <title>EGITech Homepage</title>
 </head>
@@ -25,17 +21,17 @@
 <body>
     <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg  ">
-            <a class="navbar-brand" href="#"> <img src="./img/Frame.png" alt="logoEgitech"> </a>
+        <!--  -->
+        <nav class="navbar navbar-expand-lg  container  ">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#egitechNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <a class="navbar-brand p-0" href="#"> <img src="./img/EgitechLogo.png" alt="logoEgitech"> </a>
+            <span class="toggler__icon"></span>
 
-            <div class="navbar__content collapse navbar-collapse" id="egitechNavbar">
-                <ul class="navbar-nav ms-auto">
+            <div class="nav__content ms-auto">
+
+                <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">ABOUT US</a>
@@ -44,7 +40,7 @@
                         <a class="nav-link" href="#">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">SOLUTION</a>
+                        <a class="nav-link" href="#">SOLUTION</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">BLOG</a>
@@ -56,6 +52,7 @@
                         <a class="nav-link" href="#">CONTACT</a>
                     </li>
                 </ul>
+            </div>
             </div>
             </div>
         </nav>
@@ -72,37 +69,235 @@
         </div>
     </section>
     <!-- Info -->
-    <section class="info">
-        <div class="info-img"><img src="./img/Rectangle 6.png" alt=""></div>
-        <div class="info__content container">
+    <section class="info section ">
+
+        <div class="info__content container  ">
             <div class="row">
-                <div class="col-6 info__text "></div>
+                <div class="col-6 info__text ">
+                    <h2 class="blue__heading2">Your Partner for Software Innovation</h2>
+                    <p class="white__para">Egitech helps businesses add their value based on custom software development, product design, FAQs and consulting services through engagement model, project management, industry experience, start-up incubator.</p>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+
                 <div class="col-6 info__img">
-                    <!-- <div class="row">
-                        <div class="col-6"><img src="./img/info1.png" alt="info1"></div>
-                        <div class="col-6"><img src="./img/info2.png" alt="info2"></div>
-                        <div class="col-12"><img src="./img/info3.png" alt="info3"></div>
-                    </div> -->
+                    <div class="row">
+                        <div class="col-6 img__detail"><img class="img-fluid" src="./img/info1.png" alt="info1"></div>
+                        <div class="col-6 img__detail "><img class="img-fluid" src="./img/info2.png" alt="info2"></div>
+                        <div class="col-12 img__detail"><img class="img-fluid" src="./img/info3.png" alt="info3"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Our Services -->
-    <section class="ourServices"></section>
-    <!-- Our Clients -->
-    <section class="customers">
-        <div class="customers__top"></div>
-        <div class="customers__middle"></div>
-        <div class="customers__bottom"></div>
+    <section class="ourServices section">
+        <h2 class="white__heading2">Our Services</h2>
+        <div class="ourServices__content container ">
+            <div class="row">
+                <div class="serv__item col-4 ">
+                    <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (1).png" alt="servic1"></div>
+                    <h3 class="white__heading3">Web App Development</h3>
+                    <p class="gray__para">Our team of skilled web developers provides expert web application and design services that are secure, stable, scalable, and allow access from anywhere, at any time.</p>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+                <div class="serv__item col-4">
+                    <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (2).png" alt="servic2"></div>
+                    <h3 class="white__heading3">Mobile App Development</h3>
+                    <p class="gray__para">We design and implement cost-effective mobile application solutions, with the aim of helping you to fully capitalize on your resources to achieve maximum returns.</p>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+                <div class="serv__item col-4">
+                    <div class="serv-img"><img class="img-fluid" src="./img/servicesIc (3).png" alt="servic3"></div>
+                    <h3 class="white__heading3">Blockchain Development</h3>
+                    <p class="gray__para">Our team offers expertise and brings in the latest technologies in blockchain and distributed ledger technology to asset accomplishing your specific blockchain development objectives.</p>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quotes -->
+    <section class="quotes section">
+        <h2 class="white__heading2">Hear From Our Clients</h2>
+
+        <!-- Flickity HTML init -->
+
+        <div class=" quotes__content carousel  " data-flickity>
+            <div class="carousel-cell text-center">
+                <img src="./img/sign.png" alt="sign">
+                <p class="white__para">Patience. Ininite patience. No shortcuts. Very well thought out and articulate commuinication. Clear milestones, deadlines and fast work. even if the client is being careless.</p>
+                <p>IBM Company</p>
+            </div>
+            <div class="carousel-cell">
+                <div class="carousel-cell text-center">
+                    <img src="./img/sign.png" alt="sign">
+                    <p class="white__para">Thanks Egitech for deliviring the awesome Website and App. My company getting awesome customer response from the day it's get live on app store. Looking forward to working with on our next business idea.</p>
+                    <p>Ichiba JP</p>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="carousel-cell text-center">
+                    <img src="./img/sign.png" alt="sign">
+                    <p class="white__para">Egitech has done its job very well. Understand what we want and work with us on the small changes we need along the way. We will continue to choose Egitech when there is a need.</p>
+                    <p>Hong Leong Company</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Handle -->
+    <section class="handle ">
+        <div class="handle__content section">
+            <h2 class="  white__heading2">NOT SUITABLE WITH YOUR CUSTOMER?</h2>
+
+            <div class="handle__item">
+                <p class="white__para">We help CMO’s and CEO’s who are frustrated about their service is wrong way with their vision or unattractive to customers. Even worse, the user left your service. <br> <span>If that sounds familiar, let’s talk.</span></p>
+                <button class="white__btn"> LET US HANDLE THIS</button>
+            </div>
+        </div>
+    </section>
+    <!-- Customer -->
+    <section class="customer section container">
+        <h2 class="white__heading2">Our Customers</h2>
+        <div class="customer__content">
+            <div class="customer__item col-2"><img class="img-fluid" src="./img/IBM LOGO 1.png" alt="ibmLogo"></div>
+            <div class="cusomer__item col-2"><img class="img-fluid" src="./img/I-Sprint_logo 1.png" alt="iSprintLogo"></div>
+            <div class="customer__item col-2"><img class="img-fluid" src="./img/logo_transparent_with_text 1.png" alt="modohoLogo"></div>
+            <div class="customer__item col-2"><img class="img-fluid" src="./img/roadbull logo 1.png" alt="roadbullLogo"></div>
+            <div class="customer__item col-2"><img class="img-fluid" src="./img/hongleong bank 1.png" alt="hongLeongbankLogo"></div>
+            <div class="customer__item col-2"><img class="img-fluid" src="./img/Screenshot-2021-10-14-at-2.44 1.png" alt="safeRELogo"></div>
+        </div>
     </section>
     <!-- FAQ -->
-    <section class="faq"></section>
+    <section class="faq ">
+        <h2 class="white__heading2">FAQ</h2>
+        <div class="faq__content  container">
+            <div class="faq__item">
+                <div class="faq__question">
+                    <div>
+                        <p class="mb-0 ps-3">Can the company help me with project management?</p>
+                    </div>
+                    <div class="pe-3"> <span class="plus "></span></div>
+
+                </div>
+                <div class="faq__aws">
+                    <div class="faq__title">
+                        <div>
+                            <p class="mb-0">Can the company help me with project management?</p>
+                        </div>
+                        <div> <span class="minus"></span></div>
+                    </div>
+                    <div class="faq__awsDetail  ">
+                        <p> We take the time to get to know everything we need about you, to get your project managed to successful completion, as we ensure that all our processes and tools are adapted to suit not only your resources, but for the short and
+                            long-term goals of your business </p>
+                    </div>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+
+            </div>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <div>
+                        <p class="mb-0 ps-3">How to make my dream come true?</p>
+                    </div>
+                    <div class="pe-3"> <span class="plus "></span></div>
+
+                </div>
+                <div class="faq__aws">
+                    <div class="faq__title">
+                        <div>
+                            <p class="mb-0">How to make my dream come true?</p>
+                        </div>
+                        <div> <span class="minus"></span></div>
+                    </div>
+                    <div class="faq__awsDetail  ">
+                        <p> Egitech is the partner of choice for many of the world's leading businesses, SMEs and technology challengers. We help businesses increase their value through custom software development, product design, QA, and consulting services.
+                            Trust us, we will help you make your dreams come true. </p>
+                    </div>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+
+            </div>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <div>
+                        <p class="mb-0 ps-3">Does the company work on Blockchain?</p>
+                    </div>
+                    <div class="pe-3"> <span class="plus "></span></div>
+
+                </div>
+                <div class="faq__aws">
+                    <div class="faq__title">
+                        <div>
+                            <p class="mb-0">Does the company work on Blockchain?</p>
+                        </div>
+                        <div> <span class="minus"></span></div>
+                    </div>
+                    <div class="faq__awsDetail  ">
+                        <p> Egitech provides expertise and brings the latest in blockchain and distributed ledger technology to help you accomplish your specific blockchain development goals </p>
+                    </div>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+
+            </div>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <div>
+                        <p class="mb-0 ps-3">How to expand my banking network?</p>
+                    </div>
+                    <div class="pe-3"> <span class="plus "></span></div>
+
+                </div>
+                <div class="faq__aws">
+                    <div class="faq__title">
+                        <div>
+                            <p class="mb-0">How to expand my banking network?</p>
+                        </div>
+                        <div> <span class="minus"></span></div>
+                    </div>
+                    <div class="faq__awsDetail  ">
+                        <p> Egitech will help expand your banking network and increase financial inclusion by providing branchless banking services to all banked as well as unbanked populations through our agency banking solution. </p>
+                    </div>
+                    <button class="blue__btn">Learn More</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
     <!-- footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer__content container ">
+            <div class="row">
+                <div class=" footer__connect col-7">
+                    <a class="footer-brand " href="#"> <img src="./img/EgitechLogo.png" alt="logoEgitech"> </a>
+                    <p>EGITECH COMPANY LIMITED</p>
+                    <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
+                        <br> Hotline: +84 666 858 659
+                    </p>
+                    <div class="footer__social">
+                        <div class="social__item">
+                            <a href="#"><img class="img-fluid" src="./img/Vector.png" alt="linkedin"></a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#"><img class="img-fluid" src="./img/Vector-1.png" alt="facebook"></a>
+                        </div>
+
+                    </div>
+                    <span>Copyright © 2020 TP&P Technology - Leading Software Development Company in Vietnam. All Rights Reserved.</span>
+                </div>
+                <div class="footer__map col-5">
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!--  Bootstrap Bundle with Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- flickity -->
+    <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+    <script src="./js/flickity-docs.min.js"></script>
 
 </body>
 
