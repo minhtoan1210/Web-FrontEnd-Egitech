@@ -339,7 +339,7 @@
     }
     
     .faq .faq__content .faq__question {
-        border-bottom: 2px solid #FFFFFF;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
         padding-bottom: 20px;
     }
     
@@ -353,7 +353,7 @@
     .faq .faq__content .faq__item .faq__aws {
         padding: 20px 16px;
         background: rgba(255, 255, 255, 0.05);
-        border-bottom: 2px solid #FFFFFF;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     }
     
     .faq .faq__content .faq__title {
