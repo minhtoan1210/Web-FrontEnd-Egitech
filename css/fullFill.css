@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+html,
+body {
+    background: #0F0F0F;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.section {
+    padding: 64px 0;
+}
+
+.blue__heading2 {
+    font-family: "Msr-SemiBold";
+    font-size: 40px;
+    line-height: 115.5%;
+    color: #3185FF;
+}
+
+.white__heading2 {
+    font-family: "Msr-SemiBold";
+    font-size: 40px;
+    line-height: 115.5%;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.white__heading3 {
+    font-family: "Msr-SemiBold";
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 39px 0 16px;
+}
+
+.blue__btn {
+    font-family: "Pp-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Egitech Color */
+    color: #3185FF;
+    background: transparent;
+    padding: 4px 16px;
+    border: 2px solid #3185FF;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.blue__btn:hover {
+    color: rgba(51, 133, 255, 0.6);
+    border-color: rgba(51, 133, 255, 0.6);
+}
+
+.blue__btn:focus {
+    outline: none;
+}
+
+.white__para {
+    font-family: "Pp-Light";
+    /* font-size: 20px; */
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 10px 0 6px;
+}
+
+.gray__para {
+    font-family: "Pp-Light";
+    /* font-size: 20px; */
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
