@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
     <!-- Main Css -->
     <link rel="stylesheet" href="./css/index.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./reponsive/home.css">
     <!-- Font Css -->
     <link rel="stylesheet" href="./css/fonts.css">
     <!-- Flickity CSS -->
@@ -21,19 +23,43 @@
 <body>
     <!-- Header -->
     <header class="header ">
-        <div class="header__content  ">
-            <div class="navbar container">
-                <a class="nav__brand" href="#"><img class="img-fluid" src="./img/EgitechLogo.png" alt="Egitechlogo"></a>
-                <ul class="mb-0">
-                    <li><a class="active" href="#">HOME</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">SOLUTION</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CARRER</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+
+
+        <div class="header__content">
+            <nav class="navbar navbar-expand  ">
+                <a class="navbar-brand" href="#"> <img class="img-fluid" src="./img/EgitechLogo.png" alt="logoEgitech"> </a>
+
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#egitechNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <!-- </button> -->
+
+                <div class="navbar__content collapse navbar-collapse" id="egitechNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">SOLUTION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CARRER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
         </div>
 
 
@@ -261,7 +287,7 @@
     <footer class="footer">
         <div class="footer__content container  ">
             <div class="row">
-                <div class=" footer__connect ps-3 col-7">
+                <div class=" footer__connect ps-3 col-8">
                     <a class="footer-brand  " href="#"> <img class="mx-0" src="./img/EgitechLogo.png" alt="logoEgitech"> </a>
                     <p>EGITECH COMPANY LIMITED</p>
                     <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
@@ -278,9 +304,8 @@
                     </div>
                     <span>Copyright © 2020 TP&P Technology - Leading Software Development Company in Vietnam. All Rights Reserved.</span>
                 </div>
-                <div class="footer__map col-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.529963419627!2d106.68951141458896!3d10.770662392325441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c52954675%3A0xe9383087ec7edd2!2zMzUgTmd1eeG7hW4gVsSDbiBUcsOhbmcsIFBoxrDhu51uZyBQaOG6oW0gTmfFqSBMw6NvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655981224361!5m2!1svi!2s"
-                        width="446" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="footer__map col-4 ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.529963419627!2d106.68951141458896!3d10.770662392325441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c52954675%3A0xe9383087ec7edd2!2zMzUgTmd1eeG7hW4gVsSDbiBUcsOhbmcsIFBoxrDhu51uZyBQaOG6oW0gTmfFqSBMw6NvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655981224361!5m2!1svi!2s"></iframe>
                 </div>
             </div>
         </div>
