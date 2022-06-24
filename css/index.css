@@ -24,6 +24,13 @@
         padding: 64px 0;
     }
     
+    img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    
     .blue__heading2 {
         font-family: "Msr-SemiBold";
         font-size: 40px;
@@ -89,49 +96,6 @@
         color: rgba(255, 255, 255, 0.6);
     }
     /* HEADER */
-    
-    header {
-        position: relative;
-    }
-    
-    .header__content {
-        position: fixed;
-        z-index: 10;
-        background: #0F0F0F;
-        width: 100%;
-        max-width: 1920px;
-    }
-    
-    .navbar .nav__content {
-        /* margin: 39px 0 41px; */
-        margin: 20px 0;
-    }
-    
-    .navbar .navbar-nav .nav-link {
-        font-size: 14px;
-        /* 20px */
-        line-height: 24px;
-        padding: 0 16px;
-        color: #FFFFFF;
-        transition: all 0.5s;
-        font-family: "Msr-Light";
-    }
-    
-    .navbar .navbar-nav .nav-item .active {
-        font-family: "Msr-Bold";
-    }
-    
-    .navbar .navbar-nav .nav-item .active::after {
-        display: block;
-        content: "";
-        width: 100%;
-        height: 2px;
-        background: #fff;
-    }
-    
-    .navbar .navbar-nav .nav-link:hover {
-        color: rgba(255, 255, 255, 0.6);
-    }
     /* BANNER */
     
     .banner .banner__content-img img {
@@ -160,14 +124,14 @@
     }
     
     .banner .banner__content h1 {
-        font-size: 63px;
-        line-height: 75px;
+        font-size: 70px;
+        line-height: 115.5%;
         font-family: "Msr-Bold";
         margin-bottom: 60px;
     }
     
     .banner .banner__content p:last-child {
-        transform: translateY(130px);
+        transform: translateY(250px);
         font-family: "Msr-Light";
     }
     /* INFO */
@@ -396,6 +360,7 @@
     
     .footer .footer__content {
         padding: 64px 0 20px;
+        display: flex;
     }
     
     .footer .footer__content p:first-of-type {
@@ -427,4 +392,9 @@
         line-height: 34px;
         /* identical to box height, or 283% */
         color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .footer .footer__content .footer__map {
+        left: 1207px;
+        top: 64px;
     }
