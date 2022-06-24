@@ -461,6 +461,11 @@ nav.navbar {
 
 /* FOOTER */
 
+footer.footer__content {
+    width: 75%;
+    margin: auto;
+}
+
 footer {
     background: rgba(255, 255, 255, 0.05);
 }
@@ -508,6 +513,16 @@ footer {
 }
 
 .footer .footer__content .footer__map.col-4 iframe {
-    width: 446px;
-    height: 220px;
+    /* width: 446px;
+    height: 220px; */
+    max-width: 500px;
+}
+
+.footer .footer__content {
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
 }
