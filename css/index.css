@@ -116,32 +116,16 @@ header .header__content {
     background-color: #0F0F0F;
 }
 
-
-/* background: #0F0F0F;
-        width: 100%;
-        /* max-width: 1920px; */
-
-
-/* } */
-
-
-/* .navbar-nav {
-        display: flex;
-        flex-direction: unset; */
-
-
-/* >>>>>>> Stashed changes
-    }
-     */
-
 nav.navbar {
     width: 75%;
     margin: auto;
+    padding: 20px 0 40px;
 }
 
-.navbar .navbar-brand img {
+
+/* .navbar .navbar-brand img {
     transform: translateY(50%);
-}
+} */
 
 .navbar .navbar__content {
     position: absolute;
@@ -154,7 +138,7 @@ nav.navbar {
     font-family: "Msr-Bold";
 }
 
-.navbar .navbar-nav .nav-item .active::after {
+.navbar .navbar-nav .nav-item .nav-link.active::after {
     display: block;
     content: "";
     width: 100%;
@@ -176,6 +160,18 @@ nav.navbar {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.navbar i {
+    color: #FFFFFF;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
 
 /* BANNER */
 
@@ -185,6 +181,7 @@ nav.navbar {
 
 .banner__content-img img {
     max-width: 100%;
+    padding-top: 100px;
 }
 
 .banner .banner__content {
@@ -221,7 +218,7 @@ nav.navbar {
     bottom: -90%;
     font-family: "Msr-Light";
     position: absolute;
-    bottom: -130%;
+    bottom: -120%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
