@@ -13,6 +13,7 @@ html {
 html,
 body {
     background: #0F0F0F;
+    position: relative;
 }
 
 .container {
@@ -94,6 +95,16 @@ img {
     font-size: 16px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.cover {
+    position: absolute;
+    z-index: 11;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    background: transparent;
+    display: none;
 }
 
 
@@ -376,14 +387,6 @@ nav.navbar {
     padding-bottom: 64px;
 }
 
-.faq .faq__content span.plus {
-    display: inline-block;
-    height: 2px;
-    width: 20px;
-    background: #fff;
-    position: relative;
-}
-
 .faq .faq__content .plus::before {
     content: "";
     height: 2px;
@@ -397,11 +400,6 @@ nav.navbar {
 .faq .faq__content .faq__question {
     display: flex;
     justify-content: space-between;
-}
-
-.faq .faq__content .faq__question {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 20px;
 }
 
 .faq .faq__content .faq__item .faq__question p {
@@ -434,8 +432,36 @@ nav.navbar {
     color: #FFFFFF;
 }
 
+
+/* css animation */
+
 .faq .faq__content .faq__item {
     padding: 10px 0;
+}
+
+.faq .faq__content span.plus {
+    display: inline-block;
+    height: 2px;
+    width: 20px;
+    background: #fff;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 0.5s ease-out;
+}
+
+.faq__item .faq__question .active span.plus {
+    transform: rotate(45deg);
+    transition: 0.5s ease-out;
+}
+
+.faq .faq__content .faq__question {
+    cursor: grab;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 20px;
+}
+
+.faq .faq__content .faq__item.active {
+    overflow: inherit;
 }
 
 
