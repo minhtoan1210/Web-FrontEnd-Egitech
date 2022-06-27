@@ -32,7 +32,7 @@
         <div class="header__content ">
 
             <nav class=" navbar navbar-expand-md ">
-                <a class="navbar-brand " href="#"><img class="img-fluid" src="./img/EgitechLogo.png" alt="logoEgitech"></a>
+                <a class="navbar-brand " href="#"><img class="img-fluid" src="/img/EgitechLogo.png" alt="logoEgitech"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEgitech" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   
@@ -71,67 +71,265 @@
 
     </header>
     <!-- menu tap -->
+
     <section class="menuTap ">
-        <div class="menutap__content">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <a class="tap-link" id="fulfill-tab" data-bs-toggle="tab" data-bs-target="#fulfill-tab" role="tab" aria-controls="fulfill-tab" aria-selected="true" href="#">FULFILLMENT SOLUTION</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="tap-link" id="ecommerce-tab" data-bs-toggle="tab" data-bs-target="#ecommerce-tab" role="tab" aria-controls="ecommerce-tab" aria-selected="true" href="#">E-COMMERCE SOLUTION</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="tap-link" id="fintech-tab" data-bs-toggle="tab" data-bs-target="#fintech-tab" role="tab" aria-controls="fintech-tab" aria-selected="true" href="#">FINTECH SOLUTION</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="tap-link" id="estate-tab" data-bs-toggle="tab" data-bs-target="#estate-tab" role="tab" aria-controls="estate-tab" aria-selected="true" href="#">REAL ESTATE SOLUTION</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="tap-link" id="blockchain-tab" data-bs-toggle="tab" data-bs-target="#blockchain-tab" role="tab" aria-controls="blockchain-tab" aria-selected="true" href="#">BLOCKCHAIN SOLUTION</a>
-                </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="fulfill-tab" role="tabpanel" aria-labelledby="fulfill-tab">a</div>
-                <div class="tab-pane fade" id="ecommerce-tab" role="tabpanel" aria-labelledby="ecommerce-tab">b</div>
-                <div class="tab-pane fade" id="fintech-tab" role="tabpanel" aria-labelledby="fintech-tab">...</div>
-                <div class="tab-pane fade" id="estate-tab" role="tabpanel" aria-labelledby="estate-tab">...</div>
-                <div class="tab-pane fade" id="blockchain-tab" role="tabpanel" aria-labelledby="blockchain-tab">...</div>
+        <div class="menuTap__content">
+            <div class="tab">
+                <button class="tablinks active" onclick="openCity(event, 'S_fulfillment')">FULFILLMENT SOLUTION</button>
+                <button class="tablinks" onclick="openCity(event, 'S_ecommerce')">E-COMMERCE SOLUTION</button>
+                <button class="tablinks" onclick="openCity(event, 'S_fintech')">FINTECH SOLUTION</button>
+                <button class="tablinks" onclick="openCity(event, 'S_estate')">REAL ESTATE SOLUTION</button>
+                <button class="tablinks" onclick="openCity(event, 'S_blockchain')">BLOCKCHAIN SOLUTION</button>
             </div>
 
         </div>
     </section>
-
     <!-- FULFILLMENT SOLUTION -->
-    <section class="fulfillment">
+    <section id="S_fulfillment" class="fulfillment tabcontent">
         <!-- banner-->
-        <div class="fulfillment__banner"></div>
+        <div class="fulfillment__banner ">
+            <div class="fulfil__banner-img ">
+                <img class="img-fluid " src="/img/Frame 78.png" alt="banner fulfil">
+            </div>
+            <div class="fulfill__banner-content ">
+                <h2 class="blue__heading2">Successfully manage orders, <br> inventory & fulfillment operations <br> for your brands</h2>
+                <div class="blue__line"></div>
+            </div>
+        </div>
 
         <!-- features -->
-        <div class="fulfillment__features"></div>
+        <div class="fulfillment__features section">
+            <h2 class="white__heading2">Powerful features for A-Z store management</h2>
+            <div class="container">
+                <div class="fulfillment__features-top">
+                    <div class="row">
+                        <div class="features__item col-12 col-sm-4 ">
+                            <div class="features__item__content">
+                                <div class="features-img"><img class="img-fluid" src="/img/f1.png" alt="fea1"></div>
+                                <h3 class="white__heading3">Platform integration</h3>
+                                <p class="gray__para">Suit with multi-brand store management & fulfillment</p>
+                            </div>
+
+
+                        </div>
+                        <div class="features__item  col-12 col-sm-4">
+                            <div class="features__item__content ">
+                                <div class="features-img "><img class="img-fluid " src="/img/f2.png" alt="fea2"></div>
+                                <h3 class="white__heading3">Product listing</h3>
+                                <p class="gray__para">Upload products to several stores at once</p>
+                            </div>
+
+
+                        </div>
+                        <div class="features__item  col-12 col-sm-4">
+                            <div class="features__item__content">
+                                <div class="features-img"><img class="img-fluid" src="/img/f3.png" alt="fea3"></div>
+                                <h3 class="white__heading3">Inventory management</h3>
+                                <p class="gray__para">Manage stock levels to never run out of products to sell</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="fulfillment__features-bottom">
+                    <div class="row">
+                        <div class="features__item col-12 col-sm-4 ">
+                            <div class="features__item__content">
+                                <div class="features-img"><img class="img-fluid" src="/img/f4.png" alt="fea1"></div>
+                                <h3 class="white__heading3">Order management</h3>
+                                <p class="gray__para">Bulk order processing has never been simpler before</p>
+                            </div>
+
+
+                        </div>
+                        <div class="features__item  col-12 col-sm-4">
+                            <div class="features__item__content ">
+                                <div class="features-img "><img class="img-fluid " src="/img/f5.png" alt="fea2"></div>
+                                <h3 class="white__heading3">Centralized dashboard</h3>
+                                <p class="gray__para">A quick overview of all your sales movements</p>
+                            </div>
+
+
+                        </div>
+                        <div class="features__item  col-12 col-sm-4">
+                            <div class="features__item__content">
+                                <div class="features-img"><img class="img-fluid" src="/img/f6.png" alt="fea3"></div>
+                                <h3 class="white__heading3">Advance reports</h3>
+                                <p class="gray__para">Revenue and performance analysis of your stores and products</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--platform -->
-        <div class="fulfillment__platform"></div>
+        <div class="fulfillment__platform ">
+            <div class="fulfillment__platform-img">
+                <img src="/img/Frame 70.png" alt="">
+            </div>
+            <div class="fulfillment__platform__content container text-center">
+                <h2 class="white__heading2">Unified platform for Management</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="line__heading">
+                            <h3 class="white__heading3">Centralized Inventory Management</h3>
+                            <div class="white__line"></div>
+                        </div>
+                        <p class="gray__para">Manage 100% error-free inventory that gets updated in real time access all your sale channels</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="line__heading">
+                            <h3 class="white__heading3">Unified Order management</h3>
+                            <div class="white__line"></div>
+                        </div>
+                        <p class="gray__para">Manage & process orders instantly across all your sales channels on a single unified dashboard</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="line__heading">
+                            <h3 class="white__heading3">Product Information management</h3>
+                            <div class="white__line"></div>
+                        </div>
+                        <p class="gray__para">Provide a seamless experience to your shoppers by centrally managing all your catalogues & digital assets across channels</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="line__heading">
+                            <h3 class="white__heading3">Pricing & Promotions Management</h3>
+                            <div class="white__line"></div>
+                        </div>
+                        <p class="gray__para">Maximize your revenue by dynamically managing pricing across multiple channels based on real-time insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- ecosystem -->
-        <div class="fulfillment__ecosystem"></div>
+        <div class="fulfillment__ecosystem ">
+            <div class="fulfillment-img">
+                <img src="/img/blue__bgr.png" alt="">
+            </div>
+            <div class="fulfillment__ecosystem__content container">
+                <h2 class="white__heading2">
+                    Powerful ecosystem integrations to empower your management
+                </h2>
+                <div class="fulfillment__ecosystem__content-logo">
+                    <div class="fulfillment__content-logoTop ">
+                        <div class="row">
+                            <div class="col-4"><img src="/img/eco1.png" alt=""></div>
+                            <div class="col-4"><img src="/img/eco2.png" alt=""></div>
+                            <div class="col-4"><img src="/img/eco3.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="fulfillment__content-logoBottom">
+                        <div class="row">
+                            <div class="col-3"><img src="/img/eco4.png" alt=""></div>
+                            <div class="col-3"><img src="/img/eco5.png" alt=""></div>
+                            <div class="col-3"><img src="/img/eco6.png" alt=""></div>
+                            <div class="col-3"><img src="/img/eco7.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
     <!-- E-COMMERCE SOLUTION -->
-    <section class="ecommerce">
+    <section id="S_ecommerce" class="ecommerce tabcontent">
+
         <!-- banner -->
-        <div class="ecommerce__banner"></div>
+        <div class="ecommerce__banner">
+            <div class="ecommerce__banner-img ">
+                <img class="img-fluid h-100" src="/img/Frame 60.png" alt="banner ecommerce">
+            </div>
+            <div class="ecommerce__banner-content  ">
+                <h2 class="blue__heading2">Personalize every experience <br> for every shopper</h2>
+                <div class="blue__line"></div>
+            </div>
+        </div>
         <!-- info -->
-        <div class="ecommerce__info"></div>
+        <div class="ecommerce__info section  ">
+            <div class="ecommerce__info__content container text-center">
+                <h2 class="white__heading2">With you wherever you’re going</h2>
+                <p class="gray__para">One platform with all the ecommerce and point of sale features you need to start, run, and grow your business</p>
+
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="line__heading">
+                            <h3 class="white__heading3">Market your business</h3>
+                            <div class="white__line"></div>
+                        </div>
+                        <p class="gray__para">Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing campaigns</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="line__heading">
+                            <h3 class="white__heading3">Manage everything</h3>
+                            <div class="white__line"></div>
+                        </div>
+                        <p class="gray__para">Gain the insights you need to grow-user a single dashboard to manage orders, shipping, and payments anywhere you go</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- features -->
-        <div class="ecommerce__feature"></div>
-        <!--  -->
+        <div class="ecommerce__feature">
+
+            <div class="ecommerce__feature__content container">
+                <h2 class="white__heading2">Powerful Features</h2>
+                <div class="row">
+                    <div class="ecommerce__feature col-12 col-sm-3 ">
+                        <div class="ecommerce__feature__content ">
+
+                            <div class="ecommerce-img"><img class="img-fluid" src="/img/ec1.png" alt="ecommerceic1"></div>
+                            <h3 class="white__heading3">Multichannel Sales
+                            </h3>
+                            <p class="gray__para">Build and host your store and expand your commercial reach with multiple sales channels form a single dashboard
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ecommerce__feature col-12 col-sm-3 ">
+                        <div class="ecommerce__feature__content">
+                            <div class="ecommerce-img"><img class="img-fluid" src="/img/ec2.png" alt="ecommerceic2"></div>
+                            <h3 class="white__heading3">Debit/credit card payments</h3>
+                            <p class="gray__para">Instantly accept secure credit and debit card payments from all major brands with transparent pricing
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ecommerce__feature col-12 col-sm-3 ">
+                        <div class="ecommerce__feature__content">
+                            <div class="ecommerce-img"><img class="img-fluid" src="/img/ec3.png" alt="ecommerceic3"></div>
+                            <h3 class="white__heading3">Multichannel inventory management</h3>
+                            <p class="gray__para">Manage and sync your inventory for all your sales channels. Monitor your stock levels, track top products and stop selling when your inventory is sold out</p>
+                        </div>
+                    </div>
+                    <div class="ecommerce__feature col-12 col-sm-3 ">
+                        <div class="ecommerce__feature__content">
+                            <div class="ecommerce-img"><img class="img-fluid" src="/img/ec4.png" alt="ecommerceic4"></div>
+                            <h3 class="white__heading3">Business insights
+                            </h3>
+                            <p class="gray__para">Monitor your store’s performance and review your sales success with an integrated analytics dashboard and professional reports.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- FINTECH SOLUTION -->
-    <section class="fintech">
+    <section id="S_fintech" class="fintech tabcontent">
         <!-- banner -->
-        <div class="fintech__banner"></div>
+        <div class="fintech__banner">
+            <div class="fintech__banner-img ">
+                <img class="img-fluid h-100" src="/img/Frame 60.png" alt="banner fintech">
+            </div>
+            <div class="fintech__banner-content  ">
+                <div class="white__line"></div>
+                <h2 class="white__heading2">Personalize every experience <br> for every shopper</h2>
+
+            </div>
+        </div>
         <!-- info -->
         <div class="fintech__banking"></div>
         <!-- carousel -->
@@ -140,7 +338,7 @@
     </section>
 
     <!-- REAL ESTATE SOLUTION -->
-    <section class="estate">
+    <section id="S_estate" class="estate tabcontent">
         <!-- banner -->
         <div class="estate__banner"></div>
         <!-- features -->
@@ -148,28 +346,29 @@
     </section>
 
     <!-- BLOCKCHAIN SOLUTION -->
-    <section class="blockchain">
+    <section id="S_blockchain" class="blockchain tabcontent">
         <!-- banner -->
         <div class="blockchain__banner"></div>
         <!-- features -->
         <div class="blockchain__features"></div>
     </section>
 
+
     <!-- footer -->
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="footer__content container  ">
             <div class="col-12 col-sm-8">
-                <a class="footer-brand  " href="#"> <img class="mx-0" src="./img/EgitechLogo.png" alt="logoEgitech"> </a>
+                <a class="footer-brand  " href="#"> <img class="mx-0" src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
                 <p>EGITECH COMPANY LIMITED</p>
                 <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
                     <br> Hotline: +84 666 858 659
                 </p>
                 <div class="footer__social">
                     <div class="social__item">
-                        <a href="#"><img class="img-fluid" src="./img/Vector.png" alt="linkedin"></a>
+                        <a href="#"><img class="img-fluid" src="/img/Vector.png" alt="linkedin"></a>
                     </div>
                     <div class="social__item">
-                        <a href="#"><img class="img-fluid" src="./img/Vector-1.png" alt="facebook"></a>
+                        <a href="#"><img class="img-fluid" src="/img/Vector-1.png" alt="facebook"></a>
                     </div>
 
                 </div>
@@ -179,7 +378,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.529963419627!2d106.68951141458896!3d10.770662392325441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c52954675%3A0xe9383087ec7edd2!2zMzUgTmd1eeG7hW4gVsSDbiBUcsOhbmcsIFBoxrDhu51uZyBQaOG6oW0gTmfFqSBMw6NvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655981224361!5m2!1svi!2s"></iframe>
             </div>
         </div>
-    </footer> -->
+    </footer>
 
 
     <!--  Bootstrap Bundle with Popper -->
