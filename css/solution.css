@@ -441,11 +441,6 @@ nav.navbar {
 
 /* fintech carousel */
 
-
-/* .fintech .fintech__carousel .fintech__carousel-img img {
-    position: relative;
-} */
-
 .fintech .fintech__carousel {
     background-image: url(../img/Frame\ 70.png);
     background-position: center;
@@ -455,27 +450,31 @@ nav.navbar {
 
 .fintech .fintech__carousel .fintech__carousel__content .carousel-cell {
     margin: 60px;
-    /* margin: 0 auto; */
+    align-items: center;
+    position: relative;
 }
 
 .fintech .fintech__carousel .fintech__carousel__content .carousel-cell .col-6 {
-    padding: 0 40px;
+    padding: 0 10px;
     margin: auto 0;
 }
 
 .fintech .fintech__carousel .fintech__carousel__content .carousel-cell-top .white__heading2 {
     align-items: center;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .fintech .fintech__carousel .flickity-page-dots {
+    text-align: left;
     position: absolute;
-    width: 100%;
-    bottom: 10%;
-    right: 42%;
+    bottom: 8%;
+    margin-left: 60px;
 }
 
 .fintech .fintech__carousel .flickity-page-dots .dot {
+    width: 8px;
+    height: 8px;
     background: rgba(255, 255, 255, 0.4);
     margin: 0 4px;
 }
@@ -485,9 +484,100 @@ nav.navbar {
 }
 
 
-/* .fintech .fintech__carousel .fintech__carousel__content .carousel-cell img {
+/* =========================REAL ESTATE SOLUTION========================= */
+
+
+/*estate banner  */
+
+.estate .estate__banner .estate__banner-img {
+    padding-top: 40px;
+}
+
+.estate .estate__banner .estate__banner-img {
+    position: relative;
+    padding-top: 40px;
+}
+
+.estate .estate__banner .estate__banner-content {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.estate .estate__banner .estate__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.estate .estate__banner .estate__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.estate .estate__banner .estate__banner-content .estate-img img {
+    margin: 0;
+}
+
+
+/*  estate features*/
+
+.estate .estate__features .estate__features__content .col-6 {
+    padding: 20px;
+}
+
+.estate .estate__features .estate__features__content .estate__item .img-fluid {
+    margin: 0;
     object-fit: contain;
-} */
+}
+
+
+/* =======================BLOCKCHAIN============================ */
+
+
+/*blockchain banner  */
+
+.blockchain .blockchain__banner .blockchain__banner-img {
+    padding-top: 40px;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-img {
+    position: relative;
+    padding-top: 40px;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+    margin: 0;
+}
+
+
+/*  blockchain features*/
+
+.blockchain .blockchain__features .blockchain__features__content .col-4 {
+    padding: 30px 20px 10px;
+}
+
+.blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+    margin: 0;
+    object-fit: contain;
+}
 
 
 /* ========================================FOOTER========================================== */
