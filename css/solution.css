@@ -442,6 +442,54 @@ nav.navbar {
 /* fintech carousel */
 
 
+/* .fintech .fintech__carousel .fintech__carousel-img img {
+    position: relative;
+} */
+
+.fintech .fintech__carousel {
+    background-image: url(../img/Frame\ 70.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fintech .fintech__carousel .fintech__carousel__content .carousel-cell {
+    margin: 60px;
+    /* margin: 0 auto; */
+}
+
+.fintech .fintech__carousel .fintech__carousel__content .carousel-cell .col-6 {
+    padding: 0 40px;
+    margin: auto 0;
+}
+
+.fintech .fintech__carousel .fintech__carousel__content .carousel-cell-top .white__heading2 {
+    align-items: center;
+    text-align: left;
+}
+
+.fintech .fintech__carousel .flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    right: 42%;
+}
+
+.fintech .fintech__carousel .flickity-page-dots .dot {
+    background: rgba(255, 255, 255, 0.4);
+    margin: 0 4px;
+}
+
+.fintech .fintech__carousel .flickity-page-dots .dot.is-selected {
+    background: #3185FF;
+}
+
+
+/* .fintech .fintech__carousel .fintech__carousel__content .carousel-cell img {
+    object-fit: contain;
+} */
+
+
 /* ========================================FOOTER========================================== */
 
 footer.footer__content {
