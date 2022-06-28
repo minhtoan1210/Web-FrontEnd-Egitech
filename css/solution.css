@@ -314,11 +314,6 @@ nav.navbar {
 }
 
 
-/* .fulfillment__platform .fulfillment__platform__content .line__heading {
-    padding-bottom: 10px;
-} */
-
-
 /* Fulfill Ecosystem */
 
 .fulfillment__ecosystem {
@@ -393,13 +388,60 @@ nav.navbar {
 }
 
 
+/* ============================FINTECH SOLUTION============================ */
+
+
 /* Fintech banner */
 
 .fintech .fintech__banner .fintech__banner-img {
+    position: relative;
     padding-top: 40px;
 }
 
-.fintech .fintech__banner .fintech__banner-content
+.fintech .fintech__banner .fintech__banner-content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.fintech .fintech__banner .fintech__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.fintech .fintech__banner .fintech__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.fintech .fintech__banner .fintech__banner-content .fintech-img img {
+    margin: 0;
+}
+
+
+/* fintech banking */
+
+.fintech .fintech__banking .white__heading2 {
+    padding-bottom: 0;
+}
+
+.fintech .fintech__banking .fintech__banking__content {
+    margin-top: 50px;
+}
+
+.fintech .fintech__banking .fintech__banking__content .fintech__item .fintech-img img {
+    margin: 0;
+}
+
+.fintech .fintech__banking .fintech__banking__content .col-4 {
+    padding: 0 30px;
+}
+
+
+/* fintech carousel */
+
+
 /* ========================================FOOTER========================================== */
 
 footer.footer__content {
