@@ -1,0 +1,649 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+html,
+body {
+    background: #0F0F0F;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.section {
+    padding: 64px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.blue__heading2 {
+    color: #3185FF;
+    font-family: "Msr-Bold";
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.white__heading2 {
+    font-family: "Msr-SemiBold";
+    font-size: 30px;
+    line-height: 115.5%;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.white__heading3 {
+    font-family: "Msr-SemiBold";
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 39px 0 16px;
+}
+
+.blue__btn {
+    font-family: "Pp-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Egitech Color */
+    color: #3185FF;
+    background: transparent;
+    padding: 4px 14px;
+    border: 2px solid #3185FF;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.blue__btn:hover {
+    color: rgba(51, 133, 255, 0.6);
+    border-color: rgba(51, 133, 255, 0.6);
+}
+
+.blue__btn:focus {
+    outline: none;
+}
+
+.white__para {
+    font-family: "Pp-Light";
+    /* font-size: 20px; */
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px 0 6px;
+}
+
+.gray__para {
+    font-family: "Pp-Light";
+    /* font-size: 20px; */
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.blue__line {
+    width: 50px;
+    height: 6px;
+    background: #3185FF;
+    margin-right: 0;
+    margin: 10px auto 0;
+}
+
+.white__line {
+    width: 30px;
+    height: 4px;
+    background: #ffffff;
+    margin-right: 0;
+    margin: 0 auto;
+}
+
+.line__heading {
+    padding-bottom: 10px;
+}
+
+
+/* HEADER */
+
+header {
+    position: relative;
+}
+
+header .header__content {
+    position: fixed;
+    z-index: 2;
+    /* <<<<<<< Updated upstream */
+    width: 100%;
+    max-width: 100%;
+    height: 90px;
+    background-color: #0F0F0F;
+}
+
+nav.navbar {
+    width: 75%;
+    margin: auto;
+    padding: 20px 0 40px;
+}
+
+.navbar .navbar__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbar .navbar-nav .nav-item .active {
+    font-family: "Msr-Bold";
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 300;
+    /* font main 20px */
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 16px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+    font-family: "Msr-Regular";
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar i {
+    color: #FFFFFF;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+
+/* MENUTAP */
+
+.menuTap .menuTap__content {
+    position: fixed;
+    z-index: 2;
+    /* <<<<<<< Updated upstream */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.menuTap {
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.menuTap .menuTap__content .tab .tablinks {
+    z-index: 100;
+}
+
+.tab {
+    text-align: center;
+    /* position: fixed;
+    z-index: 3; */
+}
+
+.tab button {
+    font-family: "Msr-Light";
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 12px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.tab button:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tab .tablinks.active {
+    font-family: "Msr-Bold";
+}
+
+.tab .tablinks.active::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+
+/*========================================= FULFILL SOLUTION=========================================*/
+
+
+/* fulfill banner */
+
+.fulfillment .fulfillment__banner .fulfil__banner-img {
+    padding-top: 40px;
+    position: relative;
+}
+
+.fulfillment .fulfillment__banner .fulfill__banner-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+
+/* fulfill features */
+
+.fulfillment__features .fulfillment__features-top {
+    margin-bottom: 30px;
+}
+
+.fulfillment__features .features__item {
+    padding: 0 30px;
+}
+
+.fulfillment__features .features__item__content {
+    height: 200px;
+}
+
+.fulfillment__features .features__item__content .features-img .img-fluid {
+    margin: 0;
+}
+
+.fulfillment__features h3 {
+    font-size: 20px;
+    padding: 20px 0 0;
+}
+
+
+/* fulfill platform */
+
+.fulfillment__platform {
+    position: relative;
+}
+
+.fulfillment__platform .fulfillment__platform__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+    padding: 0;
+}
+
+.fulfillment__platform .fulfillment__platform__content .col-6 {
+    padding: 10px 30px;
+}
+
+
+/* Fulfill Ecosystem */
+
+.fulfillment__ecosystem {
+    position: relative;
+    padding-top: 64px;
+}
+
+.fulfillment__ecosystem .fulfillment__ecosystem__content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    margin: auto;
+}
+
+.fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop {
+    padding-bottom: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* E-COMMERCE SOLUTION  */
+
+.ecommerce .ecommerce__banner .ecommerce__banner-img {
+    padding-top: 40px;
+    position: relative;
+}
+
+.ecommerce .ecommerce__banner .ecommerce__banner-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.ecommerce__info .ecommerce__info__content .white__heading2 {
+    padding-bottom: 0;
+}
+
+.ecommerce__info .ecommerce__info__content .white__heading3 {
+    padding-bottom: 0;
+}
+
+
+/* Ec Features */
+
+.ecommerce__feature {
+    padding-bottom: 32px;
+}
+
+.ecommerce__feature .ecommerce__feature__content .white__heading3 {
+    font-size: 20px;
+    height: 110px;
+}
+
+
+/* ============================FINTECH SOLUTION============================ */
+
+
+/* Fintech banner */
+
+.fintech .fintech__banner .fintech__banner-img {
+    position: relative;
+    padding-top: 40px;
+}
+
+.fintech .fintech__banner .fintech__banner-content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.fintech .fintech__banner .fintech__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.fintech .fintech__banner .fintech__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.fintech .fintech__banner .fintech__banner-content .fintech-img img {
+    margin: 0;
+}
+
+
+/* fintech banking */
+
+.fintech .fintech__banking .white__heading2 {
+    padding-bottom: 0;
+}
+
+.fintech .fintech__banking .fintech__banking__content {
+    margin-top: 50px;
+}
+
+.fintech .fintech__banking .fintech__banking__content .fintech__item .fintech-img img {
+    margin: 0;
+}
+
+.fintech .fintech__banking .fintech__banking__content .col-4 {
+    padding: 0 30px;
+}
+
+
+/* fintech carousel */
+
+.fintech .fintech__carousel {
+    background-image: url(../img/Frame\ 70.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fintech .fintech__carousel .fintech__carousel__content .carousel-cell {
+    margin: 60px;
+    align-items: center;
+    position: relative;
+}
+
+.fintech .fintech__carousel .fintech__carousel__content .carousel-cell .col-6 {
+    padding: 0 10px;
+    margin: auto 0;
+}
+
+.fintech .fintech__carousel .fintech__carousel__content .carousel-cell-top .white__heading2 {
+    align-items: center;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.fintech .fintech__carousel .flickity-page-dots {
+    text-align: left;
+    position: absolute;
+    bottom: 8%;
+    margin-left: 60px;
+}
+
+.fintech .fintech__carousel .flickity-page-dots .dot {
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 0 4px;
+}
+
+.fintech .fintech__carousel .flickity-page-dots .dot.is-selected {
+    background: #3185FF;
+}
+
+
+/* =========================REAL ESTATE SOLUTION========================= */
+
+
+/*estate banner  */
+
+.estate .estate__banner .estate__banner-img {
+    padding-top: 40px;
+}
+
+.estate .estate__banner .estate__banner-img {
+    position: relative;
+    padding-top: 40px;
+}
+
+.estate .estate__banner .estate__banner-content {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.estate .estate__banner .estate__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.estate .estate__banner .estate__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.estate .estate__banner .estate__banner-content .estate-img img {
+    margin: 0;
+}
+
+
+/*  estate features*/
+
+.estate .estate__features .estate__features__content .col-6 {
+    padding: 20px;
+}
+
+.estate .estate__features .estate__features__content .estate__item .img-fluid {
+    margin: 0;
+    object-fit: contain;
+}
+
+
+/* =======================BLOCKCHAIN============================ */
+
+
+/*blockchain banner  */
+
+.blockchain .blockchain__banner .blockchain__banner-img {
+    padding-top: 40px;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-img {
+    position: relative;
+    padding-top: 40px;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+    margin: 0;
+}
+
+
+/*  blockchain features*/
+
+.blockchain .blockchain__features .blockchain__features__content .col-4 {
+    padding: 30px 20px 10px;
+}
+
+.blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+    margin: 0;
+    object-fit: contain;
+}
+
+
+/* ========================================FOOTER========================================== */
+
+footer.footer__content {
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.footer .footer__content {
+    padding: 64px 0 20px;
+    display: flex;
+}
+
+.footer .footer__content p:first-of-type {
+    font-family: "Msr-SemiBold";
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 0 4px;
+    margin: 0;
+}
+
+.footer .footer__content p:last-of-type {
+    font-family: "Msr-Regular";
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .footer__content .footer__social {
+    display: flex;
+}
+
+.footer .footer__content .footer__social .social__item {
+    padding: 0 20px 20px 0;
+}
+
+.footer .footer__content span {
+    font-family: "Pp-Thin";
+    font-size: 10px;
+    line-height: 34px;
+    /* identical to box height, or 283% */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .footer__content .footer__map.col-4 {
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer__content .footer__map.col-4 iframe {
+    /* width: 446px;
+    height: 220px; */
+    max-width: 500px;
+}
+
+.footer .footer__content {
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+}
