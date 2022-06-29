@@ -120,6 +120,19 @@ img {
     padding-bottom: 10px;
 }
 
+.active {
+    font-family: "Msr-Bold";
+    color: #fff !important;
+}
+
+.active::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
 
 /* HEADER */
 
@@ -150,6 +163,8 @@ nav.navbar {
     transform: translate(-50%);
 }
 
+
+/* 
 .navbar .navbar-nav .nav-item .active {
     font-family: "Msr-Bold";
 }
@@ -160,7 +175,7 @@ nav.navbar {
     width: 100%;
     height: 2px;
     background: #fff;
-}
+} */
 
 .navbar .navbar-nav .nav-link {
     font-weight: 300;
