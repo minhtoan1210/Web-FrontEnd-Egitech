@@ -347,10 +347,113 @@ nav.navbar {
     padding: 20px 0 30px;
 }
 
+.web__technologies .web__technologies__content .row .white__heading4 {
+    padding-bottom: 10px;
+}
+
 .web__technologies .web__techonologies__content .row img {
     object-fit: fill;
     width: 50px;
     height: 50px;
+}
+
+
+/*   <!--===================MOBILE APP=======================   */
+
+
+/* Mobile banner */
+
+.mobileApp .mobile__banner .mobile__banner-img {
+    padding-top: 40px;
+}
+
+.mobileApp .mobile__banner .mobile__banner-img {
+    position: relative;
+    padding-top: 40px;
+}
+
+.mobileApp .mobile__banner .mobile__banner-content {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.mobileApp .mobile__banner .mobile__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+    margin: 0;
+}
+
+
+/* mobile info */
+
+.mobile__info .mobile__info__content .mobile__info__title {
+    padding-bottom: 20px;
+}
+
+.mobile__info .mobile__info__content .mobile__info__item {
+    padding: 20px;
+}
+
+.mobile__info .mobile__info__content .mobile__info__item img {
+    margin: 0;
+}
+
+.mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+    padding: 10px 0 16px;
+    /* height: 86px; */
+}
+
+
+/* mobile process */
+
+.mobile__process {
+    padding-bottom: 32px;
+}
+
+.mobile__process .mobile__process__content .white__heading2 {
+    padding-bottom: 0;
+}
+
+.mobile__process .mobile__process__content .col-6 .white__heading3 {
+    padding: 0;
+}
+
+.mobile__process .mobile__process__content .col-6 {
+    padding: 10px 30px;
+}
+
+
+/* mobile technologies */
+
+.mobile__technologies {
+    background: rgba(49, 133, 255, 0.2);
+    /* padding-top: 64px; */
+}
+
+.mobile__technologies .mobile__technologies__content .col-auto {
+    padding: 0 20px;
+}
+
+.mobile__technologies .mobile__technologies__content .row {
+    padding: 20px 0 30px;
+}
+
+.mobile__technologies .mobile__technologies__content .row .white__heading4 {
+    padding-bottom: 10px;
+}
+
+.mobile__technologies .mobile__technologies__content .row img {
+    object-fit: contain;
 }
 
 
