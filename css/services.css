@@ -46,7 +46,7 @@ img {
 .white__heading2 {
     font-family: "Msr-SemiBold";
     font-size: 30px;
-    line-height: 115.5%;
+    line-height: 116.5%;
     color: #fff;
     text-align: center;
     padding-bottom: 30px;
@@ -452,8 +452,156 @@ nav.navbar {
     padding-bottom: 10px;
 }
 
-.mobile__technologies .mobile__technologies__content .row img {
-    object-fit: contain;
+.mobile__technologies .mobile__technologies__content .row .col-auto {
+    align-items: center;
+}
+
+
+/* ==============================BLOCKCHAIN============================= */
+
+
+/* block banner */
+
+.blockchainDev .block__banner .block__banner-img {
+    padding-top: 40px;
+}
+
+.blockchainDev .block__banner .block__banner-img {
+    position: relative;
+    padding-top: 40px;
+}
+
+.blockchainDev .block__banner .block__banner-content {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.blockchainDev .block__banner .block__banner-content .white__heading2 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.blockchainDev .block__banner .block__banner-content .white__line {
+    margin: 0 0 5px;
+    width: 50px;
+    height: 6px;
+}
+
+.blockchainDev .block__banner .block__banner-content .white__para {
+    line-height: 22px;
+}
+
+.blockchainDev .block__banner .block__banner-content .block-img img {
+    margin: 0;
+}
+
+
+/* block info */
+
+.block__info .block__info__content .block__info__title {
+    padding-bottom: 20px;
+}
+
+.block__info .block__info__content .block__info__item {
+    padding: 20px;
+}
+
+.block__info .block__info__content .block__info__item img {
+    margin: 0;
+}
+
+.block__info .block__info__content .block__info__item .white__heading3 {
+    padding: 10px 0 16px;
+    /* height: 86px; */
+}
+
+
+/*blockchain reason  */
+
+.block__reason {
+    background-image: url(../img/bigBlueBgr.png);
+    padding: 32px 0;
+}
+
+.block__reason .block__reason-content .white__heading3 {
+    padding: 0;
+}
+
+.block__reason .dots-list {
+    width: 50%;
+    margin: auto;
+}
+
+.block__reason .dots-list ol {
+    /* padding-left: 150px; */
+    position: relative;
+    margin-bottom: 20px;
+    list-style: none !important;
+}
+
+.block__reason .dots-list ol li {
+    position: relative;
+    margin-top: 1.0em;
+    margin-bottom: 22px;
+    padding-left: 30px;
+}
+
+.block__reason .dots-list ol li .date {
+    position: absolute;
+    left: -115px;
+    font-weight: bold;
+    font-size: 1em;
+    top: -2px;
+}
+
+.block__reason .dots-list ol li:before {
+    content: "";
+    background: #fff;
+    /*Sửa màu*/
+    position: absolute;
+    width: 2px;
+    top: 5px;
+    bottom: -25px;
+    left: -25px;
+}
+
+.block__reason .dots-list ol li:after {
+    content: "";
+    background: #fff;
+    /*edit circle colour*/
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    /* border: 2px solid #fff; */
+    /*edit circle border colour*/
+    top: 5px;
+    left: -31px;
+}
+
+.block__reason .dots-list ol li:last-child:before {
+    content: "";
+    background: rgba(0, 0, 0, 0);
+}
+
+
+/* block process */
+
+.block__process {
+    padding-bottom: 32px;
+}
+
+.block__process .block__process__content .white__heading2 {
+    padding-bottom: 0;
+}
+
+.block__process .block__process__content .col-6 .white__heading3 {
+    padding: 0;
+}
+
+.block__process .block__process__content .col-6 {
+    padding: 10px 30px;
 }
 
 
