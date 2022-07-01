@@ -120,12 +120,12 @@ img {
     padding-bottom: 10px;
 }
 
-.active {
-    font-family: "Msr-Bold";
+.nav-link.active {
+    font-family: "Msr-Bold" !important;
     color: #fff !important;
 }
 
-.active::after {
+.nav-link.active::after {
     display: block;
     content: "";
     width: 100%;
@@ -162,20 +162,6 @@ nav.navbar {
     left: 50%;
     transform: translate(-50%);
 }
-
-
-/* 
-.navbar .navbar-nav .nav-item .active {
-    font-family: "Msr-Bold";
-}
-
-.navbar .navbar-nav .nav-item .nav-link.active::after {
-    display: block;
-    content: "";
-    width: 100%;
-    height: 2px;
-    background: #fff;
-} */
 
 .navbar .navbar-nav .nav-link {
     font-weight: 300;
@@ -496,6 +482,10 @@ nav.navbar {
 
 .fintech .fintech__carousel .flickity-page-dots .dot.is-selected {
     background: #3185FF;
+}
+
+.fintech .fintech__carousel .flickity-button {
+    display: none;
 }
 
 

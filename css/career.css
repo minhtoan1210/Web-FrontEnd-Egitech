@@ -128,12 +128,12 @@ img {
     padding-bottom: 10px;
 }
 
-.active {
-    font-family: "Msr-Bold";
+.nav-link.active {
+    font-family: "Msr-Bold" !important;
     color: #fff !important;
 }
 
-.active::after {
+.nav-link.active::after {
     display: block;
     content: "";
     width: 100%;
