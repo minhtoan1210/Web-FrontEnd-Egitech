@@ -201,6 +201,33 @@ nav.navbar {
 
 /* ========================================CAREER========================================== */
 
+.career {
+    padding-top: 130px;
+}
+
+.career .career__content {
+    padding-top: 20px;
+}
+
+.career .career__content .career__item button.btn {
+    font-family: "Msr-Bold";
+    font-size: 16px;
+    width: 100%;
+    height: 58px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    transition: all 0.5s;
+}
+
+.career .career__content .career__item button.btn:hover {
+    color: #fff;
+    background: #3185FF;
+}
+
+.career .career__content .career__item {
+    padding: 15px 12px;
+}
+
 
 /* ========================================FOOTER========================================== */
 
