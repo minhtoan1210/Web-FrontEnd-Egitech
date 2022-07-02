@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Main Css -->
     <link rel="stylesheet" href="/css/applyForm.css">
-    <title>EGITech | Career Detail</title>
+    <title>EGITech | Apply Now</title>
 </head>
 
 <body>
@@ -69,16 +69,79 @@
         </div>
     </header>
     <!-- Career Detail -->
-    <div class="careerDetail section ">
-        <div class="career__Detail__content container">
-            <div class="detail__title">
-                <p class="white__para">
-                    <a href="../html/career.html">Career</a>
-                    <span>|</span> <span>Software Developer (ReactJS, PHP)</span></p>
-                <a href="../html/career.html"> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ArrowLeft"><path d="M11 5l-7 7 7 7"../><path d="M4 12h16"../></svg></a>
-                <!-- <i class="ai-arrow-left"></i> -->
-            </div>
+    <div class="applyForm section ">
 
+        <div class="applyForm__content container">
+            <div class="applyForm__title ">
+                <p class="white__para">
+                    <a href="/html/career.html">Career</a>
+                    <span>|</span> <a href="/html/careerDetail.html">Software Developer (ReactJS, PHP)</a> <span>|</span><span>Apply</span> </p>
+                <a href="../html/career.html"> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ArrowLeft"><path d="M11 5l-7 7 7 7"../><path d="M4 12h16"../></svg></a>
+
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="appItemTiltle appItem">
+                        <h3 class="white__heading3 ">Personal information</h3>
+                        <p class="gray__para">
+                            Tell us something about yourself
+                        </p>
+                    </div>
+
+                    <div class="appItem">
+                        <p class="white__para">Full Name *</p>
+                        <input type="text" name="fullname" id="aFullname" placeholder="Your full name">
+                    </div>
+
+                    <div class="appItem">
+                        <p class="white__para">Email Address *</p>
+                        <input type="text" name="email" id="aEmail" placeholder="Your email address">
+                    </div>
+
+                    <div class="appItem">
+                        <p class="white__para">Phone Number *</p>
+                        <input type="number" name="phone" id="aPhone" placeholder="Your Phone Number">
+                    </div>
+
+                    <div class="appItemTiltle appItem">
+                        <h3 class="white__heading3 ">CV or resume</h3>
+                    </div>
+
+                    <div class="appItem">
+                        <p class="white__para">Upload your CV or resume file *</p>
+                        <div class="drag-area cvFile">
+                            <p class="white__para"></p>
+                        </div>
+                    </div>
+
+                    <div class="appItemTiltle appItem">
+                        <h3 class="white__heading3 ">Cover letter</h3>
+                    </div>
+
+                    <div class="appItem">
+                        <p class="white__para">Insert your cover letter here</p>
+                        <input class="cvLetter" type="text">
+                    </div>
+
+                    <div class="appItemTiltle appItem">
+                        <h3 class="white__heading3 ">Questions</h3>
+                        <p class="gray__para">
+                            Please fill in additional questions
+                        </p>
+                    </div>
+
+                    <div class="appItem">
+                        <p class="white__para pb-1">How many years of work experience do you have using Mobile Application Design? *</p>
+                        <input type="text" name="qts1" id="aQts1" placeholder="Please fill in your answer">
+                    </div>
+
+                    <div class="appItem">
+                        <p class="white__para  pb-1 pt-2">How many years of work experience do you have using Mobile Application Design? </p>
+                        <input type="text" name="qts2" id="aQts2" placeholder="Please fill in your answer">
+                    </div>
+                    <button class="blue__btn__large ">SEND TO US</button>
+                </div>
+            </div>
 
         </div>
 
@@ -124,7 +187,7 @@
     <script src="../js/libs/_jquery.js"></script>
     <!-- JS -->
     <script src="../js/header.js"></script>
-
+    <script src="/js/applyNow.js"></script>
 
     <!-- akar font -->
     <script src="https://unpkg.com/akar-icons-fonts"></script>
