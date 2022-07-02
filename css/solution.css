@@ -483,6 +483,10 @@ nav.navbar {
     background: #3185FF;
 }
 
+.flickity-button {
+    display: none;
+}
+
 
 /* =========================REAL ESTATE SOLUTION========================= */
 
