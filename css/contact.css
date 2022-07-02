@@ -228,6 +228,7 @@ nav.navbar {
 
 .contact .contact__content {
     margin-top: 20px;
+    font-family: "Pp-Light";
 }
 
 .contact .contact__itemTiltle .white__heading2 {
@@ -235,8 +236,8 @@ nav.navbar {
     text-align: left;
 }
 
-.contact .contact__content {
-    font-family: "Pp-Light";
+.contact .contact__itemTiltle .white__para {
+    padding: 0;
 }
 
 .contact .contact__itemTiltle {
