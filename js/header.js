@@ -2,11 +2,12 @@
 //     // $(this).addClass('active').siblings().removeClass('active')
 //     console.log("abc")
 // })
-$(document).ready(function() {
-    var home = $('#aahome');
-    var about = document.getElementById('about');
-    console.log(home);
 
-});
-
-console.log(document.getElementById('aahome'))
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll('a');
+const menuLength = menuItem.length
+for (let i = 0; i < menuLength; i++) {
+    if (menuItem[i].href === currentLocation) {
+        menuItem[i].className === 'active'
+    }
+}

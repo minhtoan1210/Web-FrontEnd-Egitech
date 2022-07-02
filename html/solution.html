@@ -30,34 +30,37 @@
         <div class="header__content ">
 
             <nav class=" navbar navbar-expand-md ">
-                <a class="navbar-brand " href="../index.html"><img class="img-fluid" src="../img/EgitechLogo.png" alt="logoEgitech"></a>
+                <a class="navbar-brand " href="/index.html"><img class="img-fluid" src="/img/EgitechLogo.png" alt="logoEgitech"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEgitech" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  
-                    <i class="fa fa-bars"></i>
-                  </button>
+
+                <i class="fa fa-bars"></i>
+                <!-- <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div> -->
+                </button>
                 <div class="collapse navbar-collapse " id="navbarEgitech">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
-                            <a class="nav-link  active homepage " href="../index.html">HOME</a>
+                            <a id="ahome" class="nav-link   homepage" href="/index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link aboutUs" href="../html/about.html">ABOUT US</a>
+                            <a class="nav-link aboutUs" href="/html/about.html">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link services" href="../html/services.html">SERVICES</a>
+                            <a class="nav-link services" href="/html/services.html">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link solution" href="../html/solution.html">SOLUTION</a>
+                            <a class="nav-link active solution" href="/html/solution.html" id="solution">SOLUTION</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link blog " href="#">BLOG</a>
+                            <a class="nav-link blog " href="/html/blog.html">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link carrer" href="../html/career.html">CARRER</a>
+                            <a class="nav-link carrer" href="/html/career.html">CARRER</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="#">CONTACT</a>
+                            <a class="nav-link contact" href="/html/contact.html">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -584,7 +587,7 @@
     <footer class="footer">
         <div class="footer__content container  ">
             <div class="col-12 col-sm-8">
-                <a class="footer-brand  " href="../index.html"> <img class="mx-0" src="../img/EgitechLogo.png" alt="logoEgitech"> </a>
+                <a class="footer-brand  " href="../index.html"> <img class="mx-0" src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
                 <p>EGITECH COMPANY LIMITED</p>
                 <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
                     <br> Hotline: +84 666 858 659
@@ -607,13 +610,19 @@
     </footer>
 
 
+
     <!--  Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- JS -->
-    <script src="../js/menuTap.js"></script>
-    <script src="../js/index.js"></script>
-    <!-- flickity -->
+    <!-- Libs -->
     <script src="../js/libs/flickity-docs.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+    <!-- JQ -->
+    <script src="../js/libs/_jquery.js"></script>
+    <!-- JS -->
+    <script src="../js/header.js"></script>
+
+
 
 
 
