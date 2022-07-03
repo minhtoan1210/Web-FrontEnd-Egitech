@@ -230,6 +230,10 @@ nav.navbar {
     margin: 40px auto 0;
 }
 
+.blog .blog__content .blog__content__item {
+    display: flex;
+}
+
 .blog .blog__content .blog__info .white__heading3 {
     padding: 10px 0 0;
     font-size: 22px;
@@ -241,6 +245,10 @@ nav.navbar {
     border-radius: 16px;
     margin: 10px;
     width: 350px;
+}
+
+.blog .blog__content a {
+    text-decoration: none;
 }
 
 .blog .blog__content .col-3 {
