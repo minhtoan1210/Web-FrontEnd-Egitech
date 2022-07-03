@@ -33,11 +33,11 @@
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEgitech" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
-                <i class="fa fa-bars"></i>
-                <!-- <div class="menu-btn">
-                    <div class="menu-btn__burger"></div>
-                </div> -->
-                </button>
+        <i class="fa fa-bars"></i>
+        <!-- <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div> -->
+        </button>
                 <div class="collapse navbar-collapse " id="navbarEgitech">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
@@ -90,17 +90,27 @@
 
                     <div class="appItem">
                         <p class="white__para">Full Name *</p>
-                        <input type="text" name="fullname" id="aFullname" placeholder="Your full name">
+                        <input class="mb-2" type="text" name="Full Name" id="aFullname" placeholder="Your full name">
+
+                        <span id="error_fullname" class="helper-text text-danger"></span>
+
+                        <span id="error_fullnameAllLetter" class="helper-text text-danger"></span>
                     </div>
 
                     <div class="appItem">
                         <p class="white__para">Email Address *</p>
-                        <input type="text" name="email" id="aEmail" placeholder="Your email address">
+                        <input class="mb-2" type="text" name="Email Address" id="aEmail" placeholder="Your email address">
+                        <span id="error_email" class="helper-text text-danger"> </span>
+
+
                     </div>
 
                     <div class="appItem">
                         <p class="white__para">Phone Number *</p>
-                        <input type="" name="phone" id="aPhone" placeholder="Your Phone Number">
+                        <input class="mb-2" type="" name="Phone Number" id="aPhone" placeholder="Your Phone Number">
+                        <span id="error_phone" class="mt-2 helper-text text-danger">
+                        
+                    </span>
                     </div>
 
                     <div class=" appItem appItemTiltle">
@@ -109,11 +119,15 @@
 
                     <div class="appItem">
                         <p class="white__para">Upload your CV or resume file *</p>
-                        <div class="drag-area cvFile">
+                        <div id="aCV" class="drag-area cvFile mb-2">
                             <p class="white__para">
-                                <button id="upload">Upload a file</button> or drag and drop here <br> We accept PDF, DOC, DOCX, JPG and PNG files.
+                                <button id="aUpload">Upload a file</button> or drag and drop here <br> We accept PDF, DOC, DOCX, JPG and PNG files.
                             </p>
                         </div>
+                        <span id="error_CV" class="helper-text text-danger">
+                        
+                    </span>
+
                     </div>
 
                     <div class=" appItem appItemTiltle">
@@ -122,8 +136,10 @@
 
                     <div class="appItem">
                         <p class="white__para">Insert your cover letter here</p>
-
-                        <textarea class="cvLetter"></textarea>
+                        <textarea id="aCVLetter" class="cvLetter mb-2 " name="Cover letter"></textarea>
+                        <span id="error_CVLetter" class="helper-text text-danger">
+                        
+                    </span>
                     </div>
 
                     <div class=" appItem appItemTiltle">
@@ -134,7 +150,7 @@
                     </div>
 
                     <div class="appItem">
-                        <p class="white__para pb-1">How many years of work experience do you have using Mobile Application Design? *</p>
+                        <p class="white__para pb-1">How many years of work experience do you have using Mobile Application Design?</p>
                         <input type="text" name="qts1" id="aQts1" placeholder="Please fill in your answer">
                     </div>
 
@@ -142,7 +158,7 @@
                         <p class="white__para  pb-1 pt-2">How many years of work experience do you have using Mobile Application Design? </p>
                         <input type="text" name="qts2" id="aQts2" placeholder="Please fill in your answer">
                     </div>
-                    <a href="#"> <button class="blue__btn__large ">SEND TO US</button></a>
+                    <a href="#"> <button type="submit" id="btnSend" class="blue__btn__large ">SEND TO US</button></a>
                 </div>
             </div>
 
@@ -156,29 +172,29 @@
 
     <!-- footer -->
     <!-- <footer class="footer">
-        <div class="footer__content container  ">
-            <div class="col-12 col-sm-8">
-                <a class="footer-brand  " href="../index.html"> <img class="mx-0" src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
-                <p>EGITECH COMPANY LIMITED</p>
-                <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
-                    <br> Hotline: +84 666 858 659
-                </p>
-                <div class="footer__social">
-                    <div class="social__item">
-                        <a href="#"><img class="img-fluid" src="../img/Vector.png" alt="linkedin"></a>
-                    </div>
-                    <div class="social__item">
-                        <a href="#"><img class="img-fluid" src="../img/Vector-1.png" alt="facebook"></a>
-                    </div>
+<div class="footer__content container  ">
+    <div class="col-12 col-sm-8">
+        <a class="footer-brand  " href="../index.html"> <img class="mx-0" src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
+        <p>EGITECH COMPANY LIMITED</p>
+        <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
+            <br> Hotline: +84 666 858 659
+        </p>
+        <div class="footer__social">
+            <div class="social__item">
+                <a href="#"><img class="img-fluid" src="../img/Vector.png" alt="linkedin"></a>
+            </div>
+            <div class="social__item">
+                <a href="#"><img class="img-fluid" src="../img/Vector-1.png" alt="facebook"></a>
+            </div>
 
-                </div>
-                <span>Copyright © 2020 TP&P Technology - Leading Software Development Company in Vietnam. All Rights Reserved.</span>
-            </div>
-            <div class="col-0 col-sm-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.529963419627!2d106.68951141458896!3d10.770662392325441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c52954675%3A0xe9383087ec7edd2!2zMzUgTmd1eeG7hW4gVsSDbiBUcsOhbmcsIFBoxrDhu51uZyBQaOG6oW0gTmfFqSBMw6NvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655981224361!5m2!1svi!2s"></iframe>
-            </div>
         </div>
-    </footer> -->
+        <span>Copyright © 2020 TP&P Technology - Leading Software Development Company in Vietnam. All Rights Reserved.</span>
+                </div>
+                <div class="col-0 col-sm-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.529963419627!2d106.68951141458896!3d10.770662392325441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c52954675%3A0xe9383087ec7edd2!2zMzUgTmd1eeG7hW4gVsSDbiBUcsOhbmcsIFBoxrDhu51uZyBQaOG6oW0gTmfFqSBMw6NvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655981224361!5m2!1svi!2s"></iframe>
+                </div>
+            </div>
+            </footer> -->
 
 
 
@@ -193,6 +209,7 @@
     <!-- JS -->
     <script src="../js/header.js"></script>
     <script src="/js/applyNow.js"></script>
+    <script src="/js/validation.js"></script>
 
     <!-- akar font -->
     <script src="https://unpkg.com/akar-icons-fonts"></script>

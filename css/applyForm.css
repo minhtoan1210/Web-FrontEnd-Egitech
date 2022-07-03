@@ -298,14 +298,14 @@ nav.navbar {
     align-items: center;
 }
 
-.applyForm .applyForm__content .appItem .drag-area button#upload {
+.applyForm .applyForm__content .appItem .drag-area button#aUpload {
     color: #3185FF;
     font-weight: bold;
     background: #0F0F0F;
     border: transparent;
 }
 
-.applyForm .applyForm__content .appItem .drag-area button#upload:focus {
+.applyForm .applyForm__content .appItem .drag-area button#aUpload:focus {
     outline: none;
 }
 
