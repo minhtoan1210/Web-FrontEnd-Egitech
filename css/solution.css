@@ -254,7 +254,7 @@ nav.navbar {
 /* fulfill banner */
 
 .fulfillment .fulfillment__banner .fulfil__banner-img {
-    padding-top: 40px;
+    padding-top: 35px;
     position: relative;
 }
 
@@ -354,7 +354,7 @@ nav.navbar {
 /* E-COMMERCE SOLUTION  */
 
 .ecommerce .ecommerce__banner .ecommerce__banner-img {
-    padding-top: 40px;
+    padding-top: 35px;
     position: relative;
 }
 
@@ -396,7 +396,7 @@ nav.navbar {
 
 .fintech .fintech__banner .fintech__banner-img {
     position: relative;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 .fintech .fintech__banner .fintech__banner-content {
@@ -442,50 +442,42 @@ nav.navbar {
 
 /* fintech carousel */
 
-.fintech .fintech__carousel {
-    background-image: url(../img/Frame\ 70.png);
+.fintech__carousel .carousel {
+    background: #0F0F0F;
+    background-image: url(../img/black\ bgr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.fintech .fintech__carousel .fintech__carousel__content .carousel-cell {
-    margin: 60px;
-    align-items: center;
     position: relative;
 }
 
-.fintech .fintech__carousel .fintech__carousel__content .carousel-cell .col-6 {
-    padding: 0 10px;
-    margin: auto 0;
+.fintech__carousel .active::after {
+    display: none;
 }
 
-.fintech .fintech__carousel .fintech__carousel__content .carousel-cell-top .white__heading2 {
-    align-items: center;
+.fintech__carousel .carousel-item .white__heading2 {
     text-align: left;
     padding-bottom: 10px;
 }
 
-.fintech .fintech__carousel .flickity-page-dots {
-    text-align: left;
-    position: absolute;
-    bottom: 8%;
-    margin-left: 60px;
+.fintech__carousel .carousel-item {
+    padding: 60px;
 }
 
-.fintech .fintech__carousel .flickity-page-dots .dot {
-    width: 8px;
+.fintech__carousel .carousel-item .carousel-cell-top {
+    margin: auto 0;
+}
+
+.fintech__carousel .carousel-indicators [data-bs-target] {
     height: 8px;
-    background: rgba(255, 255, 255, 0.4);
+    width: 8px;
+    border-radius: 100%;
     margin: 0 4px;
 }
 
-.fintech .fintech__carousel .flickity-page-dots .dot.is-selected {
-    background: #3185FF;
-}
-
-.fintech .fintech__carousel .flickity-button {
-    display: none;
+.fintech__carousel .carousel-indicators {
+    justify-content: left;
+    margin: 0 60px 20px;
 }
 
 
@@ -495,12 +487,8 @@ nav.navbar {
 /*estate banner  */
 
 .estate .estate__banner .estate__banner-img {
-    padding-top: 40px;
-}
-
-.estate .estate__banner .estate__banner-img {
     position: relative;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 .estate .estate__banner .estate__banner-content {
@@ -543,12 +531,8 @@ nav.navbar {
 /*blockchain banner  */
 
 .blockchain .blockchain__banner .blockchain__banner-img {
-    padding-top: 40px;
-}
-
-.blockchain .blockchain__banner .blockchain__banner-img {
     position: relative;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 .blockchain .blockchain__banner .blockchain__banner-content {
