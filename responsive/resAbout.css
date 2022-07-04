@@ -1,0 +1,153 @@
+    /* mobile */
+    
+    @media(min-width: 320px) and (max-width: 360px) {}
+    
+    @media(min-width: 361px) and (max-width: 540px) {}
+    
+    @media(min-width: 541px) and (max-width: 574px) {}
+    
+    @media(min-width: 575px) and (max-width: 768px) {}
+    /*============================tablet====================================== */
+    
+    @media(min-width: 769px) and (max-width: 960px) {}
+    
+    @media(min-width: 961px) and (max-width: 1044px) {}
+    
+    @media(min-width: 1045px) and (max-width: 1089px) {}
+    
+    @media(min-width: 1089px) and (max-width: 1200px) {}
+    
+    @media(min-width: 1201px) and (max-width: 1300px) {}
+    
+    @media(min-width: 1301px) and (max-width: 1500px) {}
+    
+    @media(min-width: 1501px) and (max-width: 1919px) {}
+    
+    @media(min-width: 1920px) {
+        /* About banner */
+        .about__banner .about__banner-img {
+            padding-top: 100px;
+        }
+        .about__banner .about__banner-content {
+            top: 3%;
+            left: 12%;
+        }
+        .about__banner .about__banner-content .white__heading2 {
+            padding-bottom: 0;
+            font-size: 40px;
+        }
+        .about__banner .about__banner-content .white__line {
+            margin: 0 0 5px;
+            width: 64px;
+            height: 8px;
+        }
+        /* About mission & vision */
+        .about__mission .white__heading2 {
+            padding-bottom: 0;
+        }
+        .about__mission .white__para {
+            padding: 0;
+        }
+        .about__mission .col-5 {
+            padding-right: 20px;
+        }
+        /* About value */
+        .about__value {
+            padding: 64px;
+        }
+        .about__value .about__value__content ul {
+            width: 70%;
+        }
+        .about__value .about__value__content ul .about__value__item {
+            margin-right: 60px;
+            font-size: 16px;
+        }
+        /* About model */
+        .about__models .about__models__content .about__models__item .white__heading3 {
+            padding: 20px 0 0;
+        }
+        .about__models .about__models__content .about__models__item .models-title {
+            padding-bottom: 10px;
+        }
+        /* About carousel */
+        .about__carousel .carousel-cell {
+            margin: 60px;
+        }
+        .about__carousel .carousel-cell .col-6 {
+            padding: 0 10px;
+            margin: auto 0;
+        }
+        .about__carousel .carousel-cell-top .white__heading2 {
+            padding-bottom: 10px;
+        }
+        .about__carousel .flickity-page-dots {
+            bottom: 8%;
+            margin-left: 60px;
+        }
+        .about__carousel .flickity-page-dots .dot {
+            width: 8px;
+            height: 8px;
+            margin: 0 4px;
+        }
+        /* About Experience */
+        .about__experience .about__experience__line {
+            margin: 120px 0;
+        }
+        .about__experience .about__experience__content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            margin: 0 auto;
+        }
+        .about__experience .about__experience__content .white__heading2 {
+            padding-bottom: 10px;
+        }
+        .about__experience .about__experience__line .about__experience__timeline {
+            height: 2px;
+            width: 210px;
+            margin: 20px;
+        }
+        .about__experience .about__experience__timeline::before {
+            height: 14px;
+            width: 14px;
+            transform: translate(0%, -45%);
+        }
+        .about__experience .about__experience__timeline span.middle {
+            margin: 0;
+            height: 14px;
+            width: 14px;
+            transform: translate(110px, -145%);
+        }
+        .about__experience .about__experience__timeline::after {
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            transform: translate(210px, -245%);
+        }
+        /* About incubator */
+        .about__incubator .about__incubator__content .about__incubator__item {
+            padding-top: 10px;
+        }
+        .about__incubator .about__incubator__content .about__incubator__item img {
+            margin: 0;
+        }
+        .about__incubator .about__incubator__content .about__incubator__item .white__heading3 {
+            padding: 10px 0;
+        }
+        /* About teams */
+        .about__teams .about__teams__content .col-3 .about__teams__item {
+            padding: 0 30px;
+        }
+        .about__teams .about__teams__content .col-3 .about__teams__item span {
+            font-size: 20px;
+        }
+        .about__teams .about__teams__content .col-3 .about__teams__item p {
+            font-size: 14px;
+        }
+        .about__teams .about__teams__content .col-3 .about__teams__item .teams-avt {
+            padding-bottom: 20px;
+        }
+    }
+    /* ========== */

@@ -1,0 +1,27 @@
+    /* mobile */
+    
+    @media(min-width: 320px) and (max-width: 360px) {}
+    
+    @media(min-width: 361px) and (max-width: 540px) {}
+    
+    @media(min-width: 541px) and (max-width: 574px) {}
+    
+    @media(min-width: 575px) and (max-width: 768px) {}
+    /*============================tablet====================================== */
+    
+    @media(min-width: 769px) and (max-width: 960px) {}
+    
+    @media(min-width: 961px) and (max-width: 1044px) {}
+    
+    @media(min-width: 1045px) and (max-width: 1089px) {}
+    
+    @media(min-width: 1089px) and (max-width: 1200px) {}
+    
+    @media(min-width: 1201px) and (max-width: 1300px) {}
+    
+    @media(min-width: 1301px) and (max-width: 1500px) {}
+    
+    @media(min-width: 1501px) and (max-width: 1919px) {}
+    
+    @media(min-width: 1920px) {}
+    /* ========== */
