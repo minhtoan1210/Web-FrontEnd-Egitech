@@ -153,12 +153,12 @@ img {
     padding-bottom: 10px;
 }
 
-.active {
+.navnavActive {
     font-family: "Msr-Bold" !important;
     color: #fff !important;
 }
 
-.active::after {
+.navActive::after {
     display: block;
     content: "";
     width: 100%;
