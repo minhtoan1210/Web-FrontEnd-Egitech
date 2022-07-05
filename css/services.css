@@ -71,7 +71,7 @@
 
 .webApp .web__banner .web__banner-content {
     position: absolute;
-    top: 55%;
+    top: 15%;
     left: 10%;
 }
 
@@ -173,7 +173,7 @@
 
 .mobileApp .mobile__banner .mobile__banner-content {
     position: absolute;
-    top: 55%;
+    top: 14%;
     left: 10%;
 }
 
@@ -262,17 +262,13 @@
 /* block banner */
 
 .blockchainDev .block__banner .block__banner-img {
-    padding-top: 40px;
-}
-
-.blockchainDev .block__banner .block__banner-img {
     position: relative;
     padding-top: 40px;
 }
 
 .blockchainDev .block__banner .block__banner-content {
     position: absolute;
-    top: 38%;
+    top: 7%;
     left: 10%;
 }
 

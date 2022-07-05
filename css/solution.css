@@ -67,7 +67,7 @@
 
 .fulfillment .fulfillment__banner .fulfill__banner-content {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -167,7 +167,7 @@
 
 .ecommerce .ecommerce__banner .ecommerce__banner-content {
     position: absolute;
-    top: 30%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -208,7 +208,7 @@
 
 .fintech .fintech__banner .fintech__banner-content {
     position: absolute;
-    top: 50%;
+    top: 18%;
     left: 5%;
 }
 
@@ -300,7 +300,7 @@
 
 .estate .estate__banner .estate__banner-content {
     position: absolute;
-    top: 55%;
+    top: 20%;
     left: 5%;
 }
 
@@ -344,7 +344,7 @@
 
 .blockchain .blockchain__banner .blockchain__banner-content {
     position: absolute;
-    top: 45%;
+    top: 12%;
     left: 5%;
 }
 
