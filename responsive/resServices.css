@@ -1,27 +1,2799 @@
-    /* mobile */
-    
-    @media(min-width: 320px) and (max-width: 360px) {}
-    
-    @media(min-width: 361px) and (max-width: 540px) {}
-    
-    @media(min-width: 541px) and (max-width: 574px) {}
-    
-    @media(min-width: 575px) and (max-width: 768px) {}
-    /*============================tablet====================================== */
-    
-    @media(min-width: 769px) and (max-width: 960px) {}
-    
-    @media(min-width: 961px) and (max-width: 1044px) {}
-    
-    @media(min-width: 1045px) and (max-width: 1089px) {}
-    
-    @media(min-width: 1089px) and (max-width: 1200px) {}
-    
-    @media(min-width: 1201px) and (max-width: 1300px) {}
-    
-    @media(min-width: 1301px) and (max-width: 1500px) {}
-    
-    @media(min-width: 1501px) and (max-width: 1919px) {}
-    
-    @media(min-width: 1920px) {}
-    /* ========== */
+            /* mobile */
+            
+            @media(min-width: 320px) and (max-width: 360px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* sign ... */
+                .webApp .web__info .web__info__content .web__info__text .hide__web__info {
+                    display: none;
+                }
+                .webApp .web__info .web__info__content .img-right {
+                    display: none;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 5px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 40px;
+                    padding: 5px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 40px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 0;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 10px 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 25px;
+                    padding: 0px;
+                }
+                .mobile__technologies .white__heading2 {
+                    padding: 0;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content .col-md-8 {
+                    width: 100%;
+                }
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .hide__block__para {
+                    display: none;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 40px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    height: 50px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 361px) and (max-width: 540px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* sign ... */
+                .webApp .web__info .web__info__content .web__info__text .hide__web__info {
+                    display: none;
+                }
+                .webApp .web__info .web__info__content .img-right {
+                    display: none;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 5px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 40px;
+                    padding: 5px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 40px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 0;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 10px 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 20px;
+                    padding: 0px;
+                }
+                .mobile__technologies .white__heading2 {
+                    padding: 0;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content .col-md-8 {
+                    width: 100%;
+                }
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .hide__block__para {
+                    display: none;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 40px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    height: 30px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 541px) and (max-width: 574px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* sign ... */
+                .webApp .web__info .web__info__content .web__info__text .hide__web__info {
+                    display: none;
+                }
+                .webApp .web__info .web__info__content .img-right {
+                    display: none;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 5px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 40px;
+                    padding: 5px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 40px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 0;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 20px;
+                    padding: 0px;
+                }
+                .mobile__technologies .white__heading2 {
+                    padding: 0;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content .col-md-8 {
+                    width: 100%;
+                }
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .hide__block__para {
+                    display: none;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 40px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    height: 30px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 575px) and (max-width: 768px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* sign ... */
+                .webApp .web__info .web__info__content .web__info__text .hide__web__info {
+                    display: none;
+                }
+                .webApp .web__info .web__info__content .img-right {
+                    display: none;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 5px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 40px;
+                    padding: 5px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 40px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 0;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 30px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content .col-md-8 {
+                    width: 100%;
+                }
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 40px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    height: 50px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            /*============================tablet====================================== */
+            
+            @media(min-width: 769px) and (max-width: 960px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* sign ... */
+                .webApp .web__info .web__info__content .web__info__text .hide__web__info {
+                    display: none;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 5px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 40px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 50px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 40px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content .col-md-8 {
+                    width: 100%;
+                }
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    /* 60px */
+                    height: 60px
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 961px) and (max-width: 1044px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 10px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 40px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 50px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 40px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    /* 60px */
+                    height: 60px
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 1045px) and (max-width: 1089px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 20px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 50px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    /* 60px */
+                    height: 60px
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 1089px) and (max-width: 1200px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 20px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 50px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    /* 60px */
+                    height: 40px
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 1201px) and (max-width: 1300px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 20px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 50px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    height: 60px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 1301px) and (max-width: 1500px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 20px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                    height: 50px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    height: 60px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 1501px) and (max-width: 1919px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 20px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                    height: 60px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 70%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(min-width: 1920px) {
+                /* MENUTAP */
+                .menuTap .menuTap__content {
+                    width: 100%;
+                }
+                .menuTap {
+                    padding: 80px 0 40px;
+                }
+                .tab button {
+                    padding: 10px 16px;
+                    font-size: 12px;
+                }
+                /* <!-- ===================WEBSITE APP======================  -->  */
+                /*web banner  */
+                .webApp .web__banner .web__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .webApp .web__banner .web__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .webApp .web__banner .web__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .webApp .web__banner .web__banner-content .web-img img {
+                    height: 50px;
+                }
+                /* Web info */
+                .webApp .web__info .web__info__content .white__heading2 {
+                    padding: 0;
+                    text-align: left;
+                }
+                .webApp .web__info .web__info__content .col-3 {
+                    padding: 0 9px;
+                }
+                .webApp .web__info .web__info__content .img-left .img-left-top {
+                    padding-bottom: 18px;
+                }
+                /* web process */
+                .web__process {
+                    padding-bottom: 32px;
+                }
+                .web__process .web__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .web__process .web__process__content .web__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .web__process .web__process__content .web__process__item {
+                    padding: 10px 30px;
+                }
+                .web__process .web__process__content .web__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* web technologies */
+                .web__technologies .web__techonologies__content .col-auto {
+                    padding: 0 20px;
+                }
+                .web__technologies .web__techonologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .web__technologies .web__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .web__technologies .web__techonologies__content .row img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /*   <!--===================MOBILE APP=======================   */
+                /* Mobile banner */
+                .mobileApp .mobile__banner .mobile__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
+                    height: 50px;
+                }
+                /* mobile info */
+                .mobile__info .mobile__info__content .mobile__info__title {
+                    padding-bottom: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item {
+                    padding: 20px;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item img {
+                    margin: 0;
+                }
+                .mobile__info .mobile__info__content .mobile__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /* mobile process */
+                .mobile__process {
+                    padding-bottom: 32px;
+                }
+                .mobile__process .mobile__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item {
+                    padding: 10px 30px;
+                }
+                .mobile__process .mobile__process__content .mobile__process__item .white__line {
+                    margin: 0 auto;
+                }
+                /* mobile technologies */
+                .mobile__technologies .mobile__technologies__content .row {
+                    padding: 20px 0 30px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .white__heading4 {
+                    padding-bottom: 10px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto {
+                    padding: 0 20px;
+                }
+                .mobile__technologies .mobile__technologies__content .row .col-auto img {
+                    height: 50px;
+                    padding: 2px;
+                }
+                /* ==============================BLOCKCHAIN============================= */
+                /* block banner */
+                .blockchainDev .block__banner .block__banner-content {
+                    bottom: 5%;
+                    left: 10%;
+                    width: 90%;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__line {
+                    margin: 0 0 5px;
+                    width: 50px;
+                    height: 6px;
+                }
+                .blockchainDev .block__banner .block__banner-content .white__para {
+                    line-height: 22px;
+                }
+                .blockchainDev .block__banner .block__banner-content .block-img img {
+                    height: 50px;
+                }
+                /* block info */
+                .block__info .block__info__content .block__info__title {
+                    padding-bottom: 20px;
+                }
+                .block__info .block__info__content .block__info__item {
+                    padding: 20px;
+                }
+                .block__info .block__info__content .block__info__item img {
+                    height: 50px;
+                }
+                .block__info .block__info__content .block__info__item .white__heading3 {
+                    padding: 10px 0 16px;
+                }
+                /*blockchain reason  */
+                .block__reason {
+                    padding: 32px 0;
+                }
+                .block__reason .block__reason-content .white__heading3 {
+                    padding: 0;
+                }
+                .block__reason .dots-list {
+                    width: 50%;
+                    margin: auto;
+                }
+                .block__reason .dots-list ol {
+                    margin-bottom: 20px;
+                }
+                .block__reason .dots-list ol li {
+                    margin-top: 1.0em;
+                    margin-bottom: 22px;
+                    padding-left: 30px;
+                }
+                .block__reason .dots-list ol li .date {
+                    left: -115px;
+                    font-size: 1em;
+                    top: -2px;
+                }
+                .block__reason .dots-list ol li:before {
+                    width: 2px;
+                    top: 5px;
+                    bottom: -25px;
+                    left: -25px;
+                }
+                .block__reason .dots-list ol li:after {
+                    width: 13px;
+                    height: 13px;
+                    top: 5px;
+                    left: -31px;
+                }
+                /* block process */
+                .block__process {
+                    padding-bottom: 32px;
+                }
+                .block__process .block__process__content .white__heading2 {
+                    padding-bottom: 0;
+                }
+                .block__process .block__process__content .block__process__item .white__heading3 {
+                    padding: 0;
+                }
+                .block__process .block__process__content .block__process__item {
+                    padding: 10px 30px;
+                }
+                .block__process .block__process__content .block__process__item .white__line {
+                    margin: 0 auto;
+                }
+            }
+            /* ========== */

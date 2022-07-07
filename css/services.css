@@ -11,7 +11,8 @@
 
 .menuTap {
     position: relative;
-    padding-top: 90px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     overflow: hidden;
 }
 
@@ -60,18 +61,13 @@
 
 /*web banner  */
 
-.webApp .web__banner .web__banner-img {
-    padding-top: 40px;
-}
-
-.webApp .web__banner .web__banner-img {
+.webApp .web__banner {
     position: relative;
-    padding-top: 40px;
 }
 
 .webApp .web__banner .web__banner-content {
     position: absolute;
-    top: 15%;
+    bottom: 5%;
     left: 10%;
 }
 
@@ -88,6 +84,8 @@
 
 .webApp .web__banner .web__banner-content .web-img img {
     margin: 0;
+    height: 50px;
+    width: auto;
 }
 
 
@@ -122,15 +120,15 @@
     padding-bottom: 0;
 }
 
-.web__process .web__process__content .col-6 .white__heading3 {
+.web__process .web__process__content .web__process__item .white__heading3 {
     padding: 0;
 }
 
-.web__process .web__process__content .col-6 {
+.web__process .web__process__content .web__process__item {
     padding: 10px 30px;
 }
 
-.web__process .web__process__content .col-6 .white__line {
+.web__process .web__process__content .web__process__item .white__line {
     margin: 0 auto;
 }
 
@@ -155,9 +153,9 @@
 }
 
 .web__technologies .web__techonologies__content .row img {
-    object-fit: fill;
-    width: 50px;
+    width: auto;
     height: 50px;
+    padding: 2px;
 }
 
 
@@ -166,18 +164,13 @@
 
 /* Mobile banner */
 
-.mobileApp .mobile__banner .mobile__banner-img {
-    padding-top: 40px;
-}
-
-.mobileApp .mobile__banner .mobile__banner-img {
+.mobileApp .mobile__banner {
     position: relative;
-    padding-top: 40px;
 }
 
 .mobileApp .mobile__banner .mobile__banner-content {
     position: absolute;
-    top: 14%;
+    bottom: 5%;
     left: 10%;
 }
 
@@ -194,6 +187,8 @@
 
 .mobileApp .mobile__banner .mobile__banner-content .mobile-img img {
     margin: 0;
+    height: 50px;
+    width: auto;
 }
 
 
@@ -227,15 +222,19 @@
     padding-bottom: 0;
 }
 
-.mobile__process .mobile__process__content .col-6 .white__heading3 {
+.mobile__process .mobile__process__content .mobile__process__item .white__heading3 {
     padding: 0;
 }
 
-.mobile__process .mobile__process__content .col-6 {
+.mobile__process .mobile__process__content .mobile__process__item .white__line {
+    margin: 0 auto;
+}
+
+.mobile__process .mobile__process__content .mobile__process__item {
     padding: 10px 30px;
 }
 
-.mobile__process .mobile__process__content .col-6 .white__line {
+.mobile__process .mobile__process__content .mobile__process__item .white__line {
     margin: 0 auto;
 }
 
@@ -245,10 +244,6 @@
 .mobile__technologies {
     background: rgba(49, 133, 255, 0.2);
     /* padding-top: 64px; */
-}
-
-.mobile__technologies .mobile__technologies__content .col-auto {
-    padding: 0 20px;
 }
 
 .mobile__technologies .mobile__technologies__content .row {
@@ -261,6 +256,13 @@
 
 .mobile__technologies .mobile__technologies__content .row .col-auto {
     align-items: center;
+    padding: 0 20px;
+}
+
+.mobile__technologies .mobile__technologies__content .row .col-auto img {
+    width: auto;
+    height: 50px;
+    padding: 2px;
 }
 
 
@@ -269,15 +271,15 @@
 
 /* block banner */
 
-.blockchainDev .block__banner .block__banner-img {
+.blockchainDev .block__banner {
     position: relative;
-    padding-top: 40px;
 }
 
 .blockchainDev .block__banner .block__banner-content {
     position: absolute;
-    top: 7%;
+    bottom: 5%;
     left: 10%;
+    width: 90%;
 }
 
 .blockchainDev .block__banner .block__banner-content .white__heading2 {
@@ -297,6 +299,8 @@
 
 .blockchainDev .block__banner .block__banner-content .block-img img {
     margin: 0;
+    height: 50px;
+    width: auto;
 }
 
 
@@ -312,11 +316,13 @@
 
 .block__info .block__info__content .block__info__item img {
     margin: 0;
+    height: 50px;
+    width: auto;
 }
 
 .block__info .block__info__content .block__info__item .white__heading3 {
     padding: 10px 0 16px;
-    /* height: 86px; */
+    height: 60px;
 }
 
 
@@ -399,14 +405,14 @@
     padding-bottom: 0;
 }
 
-.block__process .block__process__content .col-6 .white__heading3 {
+.block__process .block__process__content .block__process__item .white__heading3 {
     padding: 0;
 }
 
-.block__process .block__process__content .col-6 {
+.block__process .block__process__content .block__process__item {
     padding: 10px 30px;
 }
 
-.block__process .block__process__content .col-6 .white__line {
+.block__process .block__process__content .block__process__item .white__line {
     margin: 0 auto;
 }

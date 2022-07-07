@@ -343,7 +343,7 @@ footer {
 .footer .footer__content span {
     font-family: "Pp-Thin";
     font-size: 10px;
-    line-height: 34px;
+    line-height: 20px;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -584,7 +584,6 @@ footer {
     .white__heading2 {
         font-size: 18px;
         line-height: 115%;
-        /* padding-bottom: 40px; */
     }
     .white__heading3 {
         font-size: 16px;
@@ -646,7 +645,7 @@ footer {
     .footer .footer__content p:last-of-type {
         font-size: 12px;
         margin-bottom: 5px;
-        line-height: 20px;
+        line-height: 24px;
     }
     .footer .footer__content .footer__social .social__item {
         padding: 0 10px 10px 0;
@@ -655,7 +654,7 @@ footer {
         height: 30px;
     }
     .footer .footer__content .footer-brand img.footer-egitech {
-        max-width: 40%;
+        max-width: 30%;
         height: auto;
     }
 }
@@ -1121,10 +1120,16 @@ footer {
         font-size: 14px;
         padding: 0 10px;
     }
-    .navbar .navbar-nav {
+    /* .navbar .navbar-nav {
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
+    } */
+    /* bug homepage */
+    nav.navbar {
+        width: 85%;
+        margin: auto;
+        padding: 20px 0 40px;
     }
     /* FOOTER */
     .footer .footer__content p:first-of-type {
@@ -1187,10 +1192,16 @@ footer {
         font-size: 14px;
         padding: 0 10px;
     }
-    .navbar .navbar-nav {
+    /* .navbar .navbar-nav {
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
+    } */
+    /* bug homepage */
+    nav.navbar {
+        width: 80%;
+        margin: auto;
+        padding: 20px 0 40px;
     }
     /* FOOTER */
     .footer .footer__content {
@@ -1256,9 +1267,15 @@ footer {
         font-size: 16px;
         padding: 0 12px;
     }
-    .navbar .navbar-nav {
+    /* .navbar .navbar-nav {
         width: 80%;
         margin: 0 auto;
+    } */
+    /* bug homepage */
+    nav.navbar {
+        width: 80%;
+        margin: auto;
+        padding: 20px 0 40px;
     }
     /* FOOTER */
     .footer .footer__content {
@@ -1353,8 +1370,11 @@ footer {
     header .header__content {
         height: 104px;
     }
+    /* bug homepage */
     nav.navbar {
         width: 75%;
+        margin: auto;
+        padding: 20px 0 40px;
     }
     /* FOOTER */
     footer.footer__content {
