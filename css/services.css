@@ -130,6 +130,10 @@
     padding: 10px 30px;
 }
 
+.web__process .web__process__content .col-6 .white__line {
+    margin: 0 auto;
+}
+
 
 /* web technologies */
 
@@ -229,6 +233,10 @@
 
 .mobile__process .mobile__process__content .col-6 {
     padding: 10px 30px;
+}
+
+.mobile__process .mobile__process__content .col-6 .white__line {
+    margin: 0 auto;
 }
 
 
@@ -397,4 +405,8 @@
 
 .block__process .block__process__content .col-6 {
     padding: 10px 30px;
+}
+
+.block__process .block__process__content .col-6 .white__line {
+    margin: 0 auto;
 }
