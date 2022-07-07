@@ -75,8 +75,18 @@
 }
 
 .ourServices .ourServices__content .serv__item .serv__item__content {
-    height: 400px;
+    height: 280px;
     position: relative;
+}
+
+.ourServices .ourServices__content .serv-img img {
+    margin: 0;
+    height: 60px;
+    width: auto;
+}
+
+.ourServices .ourServices__content .white__heading3 {
+    padding: 15px 0 10px;
 }
 
 

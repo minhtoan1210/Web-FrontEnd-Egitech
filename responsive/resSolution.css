@@ -1,27 +1,2682 @@
-    /* mobile */
+/* mobile */
+
+
+/* mask */
+
+@media(min-width: 320px) and (max-width: 360px) {
+    .fintech .fintech__banner .fintech__banner-content .white__para {
+        display: none;
+    }
+    .estate .estate__banner .estate__banner-content .white__para {
+        display: none;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__para {
+        display: none;
+    }
+    .white__heading2 {
+        padding-bottom: 10px;
+    }
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 80px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        display: block;
+        z-index: 100;
+    }
+    .tab {
+        height: 30px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        padding-top: 10px;
+        width: 90%;
+    }
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 10px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        height: 30px;
+        width: auto;
+    }
+    .fulfillment__features .white__heading2 {
+        padding-bottom: 30px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 10px 0 0;
+        margin: 0;
+        height: 54px;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 10px;
+        font-size: 18px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-12 .white__heading3 {
+        padding: 0;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 5px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem {
+        padding-top: 30px;
+        display: none;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 0;
+        margin-bottom: 5px
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 5px;
+        width: 60%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px 0px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        padding: 0;
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        width: 80%;
+    }
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content {
+        padding: 30px 0px;
+    }
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 6px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+        font-size: 14px;
+        padding: 5px 0 0;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 270px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        line-height: 24px;
+        font-family: "Msr-Bold";
+        margin-bottom: 0;
+        height: 75px;
+        padding: 5px 0 0;
+    }
+    /* ======================FINTECH============================ */
+    /* Fintech banner */
+    .fintech .fintech__banner .fintech__banner-content .white__para {
+        display: none;
+    }
+    .fintech .fintech__banner .fintech__banner-content {
+        top: 50%;
+    }
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 23%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 10px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .white__heading3 {
+        padding-top: 15px;
+        height: 30px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .fintech-img img {
+        height: 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel {
+        display: none;
+    }
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 0px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 6px;
+        width: 6px;
+        margin: 0 2px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 70px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    .estate .estate__banner .estate__banner-content {
+        position: absolute;
+        top: 70%;
+        left: 5%;
+    }
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .estate__features .estate__features__content h3.white__heading3 {
+        padding: 10px 0px 0px;
+        margin-bottom: 0;
+        height: 40px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .estate .estate__banner .estate__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    .estate .estate__banner .estate__banner-content .white__para {
+        display: none;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 15px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 15px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 30px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 30px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 20%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content {
+        position: absolute;
+        top: 16%;
+        left: 5%;
+        width: 90%;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .col-7 {
+        width: 100%;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__para {
+        display: none;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 20px 10px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 30px;
+        width: auto;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .white__heading3 {
+        height: 50px;
+        padding: 10px 0 0;
+    }
+    .blockchain__features .white__heading2 {
+        padding: 0;
+    }
+}
+
+@media(min-width: 361px) and (max-width: 540px) {
+    .fintech .fintech__banner .fintech__banner-content .white__para {
+        display: none;
+    }
+    .estate .estate__banner .estate__banner-content .white__para {
+        display: none;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__para {
+        display: none;
+    }
+    .white__heading2 {
+        padding-bottom: 10px;
+    }
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 80px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        display: block;
+        z-index: 100;
+    }
+    .tab {
+        height: 30px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        width: 90%;
+    }
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 10px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        height: 30px;
+        width: auto;
+    }
+    .fulfillment__features .white__heading2 {
+        padding-bottom: 30px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 10px 0 0;
+        margin: 0;
+        height: 54px;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 10px;
+        font-size: 18px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-12 .white__heading3 {
+        padding: 0;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 5px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem {
+        padding-top: 30px;
+        display: none;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 0;
+        margin-bottom: 5px
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 5px;
+        width: 60%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px 0px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        padding: 0;
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        width: 80%;
+    }
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content {
+        padding: 30px 0px;
+    }
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 6px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+        font-size: 14px;
+        padding: 5px 0 0;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 270px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        line-height: 24px;
+        font-family: "Msr-Bold";
+        margin-bottom: 0;
+        height: 75px;
+        padding: 5px 0 0;
+    }
+    /* ======================FINTECH============================ */
+    /* Fintech banner */
+    .fintech .fintech__banner .fintech__banner-content .white__para {
+        display: none;
+    }
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 23%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 10px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .white__heading3 {
+        padding-top: 15px;
+        height: 30px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .fintech-img img {
+        height: 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel {
+        display: none;
+    }
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 0px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 6px;
+        width: 6px;
+        margin: 0 2px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 70px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 30px;
     
-    @media(min-width: 320px) and (max-width: 360px) {}
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 26%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .estate__features .estate__features__content h3.white__heading3 {
+        padding: 10px 0px 0px;
+        margin-bottom: 0;
+        height: 40px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .estate .estate__banner .estate__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    .estate .estate__banner .estate__banner-content .white__para {
+        display: none;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 15px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 15px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 30px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 30px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 20%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        width: 90%;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .col-7 {
+        width: 100%;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__para {
+        display: none;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 20px 10px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 30px;
+        width: auto;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .white__heading3 {
+        height: 50px;
+        padding: 10px 0 0;
+    }
+    .blockchain__features .white__heading2 {
+        padding: 0;
+    }
+}
+
+@media(min-width: 541px) and (max-width: 574px) {
+    .fintech .fintech__banner .fintech__banner-content .white__para {
+        display: none;
+    }
+    .estate .estate__banner .estate__banner-content .white__para {
+        display: none;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__para {
+        display: none;
+    }
+    .white__heading2 {
+        padding-bottom: 10px;
+    }
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 80px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        display: block;
+        z-index: 100;
+    }
+    .tab {
+        height: 30px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 30px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 180px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        height: 30px;
+        width: auto;
+    }
+    .fulfillment__features .white__heading2 {
+        padding-bottom: 30px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 85%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 18px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 20px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem {
+        padding-top: 30px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 75%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 0;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 0px;
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 20px 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 30px;
+    }
+    .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 24%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+    } */
+    .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        width: 80%;
+    }
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 6px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+        padding-top: 10px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 220px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        line-height: 24px;
+        height: 60px;
+        font-family: "Msr-Bold";
+        padding: 10px 0 20px;
+        margin-bottom: 0;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 23%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .white__heading3 {
+        padding-top: 15px;
+        height: 60px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .fintech-img img {
+        height: 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel {
+        display: none;
+    }
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 0px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 6px;
+        width: 6px;
+        margin: 0 2px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 70px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .estate__features .estate__features__content h3.white__heading3 {
+        padding: 10px 0px 0px;
+        margin-bottom: 0;
+        height: 40px;
+        font-size: 16px;
+    }
+    .estate .estate__banner .estate__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 10px 20px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 10px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 30px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 30px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 16%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .col-7 {
+        width: 100%;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 30px;
+        width: auto;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .white__heading3 {
+        height: 50px;
+        padding: 10px 0 0;
+    }
+    .blockchain__features .white__heading2 {
+        padding: 0;
+    }
+}
+
+@media(min-width: 575px) and (max-width: 768px) {
+    .fintech .fintech__banner .fintech__banner-content .white__para {
+        display: none;
+    }
+    .estate .estate__banner .estate__banner-content .white__para {
+        display: none;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__para {
+        display: none;
+    }
+    .white__heading2 {
+        padding-bottom: 10px;
+    }
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 80px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        display: block;
+        z-index: 100;
+    }
+    .tab {
+        height: 30px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 30px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        height: 30px;
+        width: auto;
+    }
+    .fulfillment__features .white__heading2 {
+        padding-bottom: 30px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 85%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 18px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 20px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem {
+        padding-top: 30px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 75%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 0;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 0px;
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 20px 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 30px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 24%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 10px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 30px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 220px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        line-height: 24px;
+        height: 60px;
+        font-family: "Msr-Bold";
+        padding: 10px 0 20px;
+        margin-bottom: 0;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 24%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .white__heading3 {
+        padding-top: 15px;
+        height: 60px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .fintech-img img {
+        height: 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel {
+        display: none;
+    }
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 0px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 6px;
+        width: 6px;
+        margin: 0 2px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 70px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 30px;
     
-    @media(min-width: 361px) and (max-width: 540px) {}
-    
-    @media(min-width: 541px) and (max-width: 574px) {}
-    
-    @media(min-width: 575px) and (max-width: 768px) {}
-    /*============================tablet====================================== */
-    
-    @media(min-width: 769px) and (max-width: 960px) {}
-    
-    @media(min-width: 961px) and (max-width: 1044px) {}
-    
-    @media(min-width: 1045px) and (max-width: 1089px) {}
-    
-    @media(min-width: 1089px) and (max-width: 1200px) {}
-    
-    @media(min-width: 1201px) and (max-width: 1300px) {}
-    
-    @media(min-width: 1301px) and (max-width: 1500px) {}
-    
-    @media(min-width: 1501px) and (max-width: 1919px) {}
-    
-    @media(min-width: 1920px) {}
-    /* ========== */
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 31%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .estate__features .estate__features__content h3.white__heading3 {
+        padding: 10px 0px 0px;
+        margin-bottom: 0;
+        height: 40px;
+    }
+    .estate .estate__banner .estate__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 10px 20px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 10px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 30px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 30px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 18%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .col-7 {
+        width: 100%;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .white__heading2 {
+        margin-bottom: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 30px;
+        width: auto;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .white__heading3 {
+        height: 50px;
+        padding: 10px 0 0;
+    }
+}
+
+
+/*=========================tablet========================== */
+
+@media(min-width: 769px) and (max-width: 960px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 30px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 30px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        width: 40px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+        height: 60px;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 85%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 18px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 20px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 15px;
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 30px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 40px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 180px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        line-height: 24px;
+        height: 60px;
+        font-family: "Msr-Bold";
+        padding: 10px 0 20px;
+        margin-bottom: 0;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 26%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content {
+        top: 45%;
+    }
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .white__heading3 {
+        padding-top: 15px;
+        height: 60px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .fintech__item .fintech-img img {
+        height: 40px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 0px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 6px;
+        width: 6px;
+        margin: 0 2px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 70px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    .estate .estate__banner .estate__banner-content {
+        top: 65%;
+    }
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .estate__features .estate__features__content h3.white__heading3 {
+        padding: 10px 0px 0px;
+        margin-bottom: 0;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 40px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 30px;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 35%;
+    }
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 40px;
+        width: auto;
+    }
+}
+
+
+/* ------------------ ecommer-------------- */
+
+@media(min-width: 961px) and (max-width: 991px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 32px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 33px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        width: 50px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+        height: 80px;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 85%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 20px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 20px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 15px;
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 300px
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 33px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+        height: 90px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 40px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 160px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        line-height: 24px;
+        height: 40px;
+        font-family: "Msr-Bold";
+        padding: 10px 0 20px;
+        margin-bottom: 0;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 36%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    .fintech__banking .fintech__banking__content .fintech-img .img-fluid {
+        height: 40px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 6px;
+        width: 6px;
+        margin: 0 2px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 70px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 33px;
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 43%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .white__heading2 {
+        padding-bottom: 20px;
+    }
+    .estate__features .estate__features__content h3.white__heading3 {
+        font-size: 24px;
+        padding: 20px 0px 0px;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 40px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 33px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 35%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        height: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1044px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 32px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+        height: 90px;
+    }
+    h3.white__heading3 {
+        padding: 28px 0 0;
+        margin-bottom: 5px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 50px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 250px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        font-size: 14px;
+        line-height: 24px;
+        height: 80px;
+        font-family: "Msr-Bold";
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item .gray__para {
+        font-size: 13px
+    }
+}
+
+
+/* ------------------ ecommer end-------------- */
+
+@media(min-width: 1045px) and (max-width: 1089px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 32px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 33px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        width: 50px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 85%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 15px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 0px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 20px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 15px;
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 300px
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 33px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .white__heading3 {
+        font-size: 16px;
+        height: 90px;
+    }
+    h3.white__heading3 {
+        padding: 28px 0 0;
+        margin-bottom: 5px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-6 .ecommerce-img img {
+        height: 50px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 250px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        font-size: 14px;
+        line-height: 24px;
+        height: 80px;
+        font-family: "Msr-Bold";
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item .gray__para {
+        font-size: 13px
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 39%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 60px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 33px;
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 47%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .white__heading2 {
+        padding-bottom: 20px;
+    }
+    .estate__features .estate__features__content h3.white__heading3 {
+        font-size: 24px;
+        padding: 20px 0px 0px;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 50px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 33px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 28%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 60px;
+        width: auto;
+    }
+}
+
+@media(min-width: 1089px) and (max-width: 1200px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 32px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 33px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        width: 60px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 85%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 5px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 20px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 15px;
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 300px
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 33px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    #S_ecommerce h3.white__heading3 {
+        margin-bottom: 0px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    /* .ecommerce__feature .ecommerce__feature__content .col-12 .white__heading3 {
+            font-size: 16px;
+        } */
+    h3.white__heading3 {
+        padding: 20px 0 0;
+        margin-bottom: 5px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .ecommerce-img img {
+        height: 60px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        height: 80px;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 40%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 60px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 33px;
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 48%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .white__heading2 {
+        padding-bottom: 20px;
+    }
+    .estate__features .estate__features__content h3.white__heading3 {
+        font-size: 24px;
+        padding: 20px 0px 0px;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 60px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 33px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 28%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 60px;
+        width: auto;
+    }
+}
+
+@media(min-width: 1201px) and (max-width: 1300px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 34px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 35px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        width: 60px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 70%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 10px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 20px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 30px;
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 300px
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 35px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .white__heading3 {
+        font-size: 18px;
+        height: 85px;
+    }
+    h3.white__heading3 {
+        padding: 28px 0 0;
+        margin-bottom: 5px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .ecommerce-img img {
+        height: 60px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        height: 80px;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 44%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 60px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 35px;
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 52%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .white__heading2 {
+        padding-bottom: 20px;
+    }
+    .estate__features .estate__features__content h3.white__heading3 {
+        font-size: 24px;
+        padding: 20px 0px 0px;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 60px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 35px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 35%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 60px;
+        width: auto;
+    }
+}
+
+@media(min-width: 1301px) and (max-width: 1500px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 34px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 35px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        width: 60px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 75%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 10px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 40px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 30px;
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 300px
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 35px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .white__heading3 {
+        font-size: 20px;
+        height: 90px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .ecommerce-img img {
+        height: 60px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+        height: 80px;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 46%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 60px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 35px;
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 55%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .white__heading2 {
+        padding-bottom: 20px;
+    }
+    .estate__features .estate__features__content h3.white__heading3 {
+        font-size: 24px;
+        padding: 20px 0px 0px;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 60px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 35px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 36%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 60px;
+        width: auto;
+    }
+}
+
+@media(min-width: 1501px) and (max-width: 1919px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 90px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        height: 34px;
+        text-align: center;
+    }
+    .tab button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    /*======================== FULFILL SOLUTION=====================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 35px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 200px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        width: 60px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 70%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 10px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 40px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 30px;
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+        height: 300px
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 35px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 29%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .white__heading3 {
+        font-size: 20px;
+        height: 90px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .ecommerce-img img {
+        height: 60px;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 50%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 60px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 35px;
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 59%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .white__heading2 {
+        padding-bottom: 20px;
+    }
+    .estate__features .estate__features__content h3.white__heading3 {
+        font-size: 24px;
+        padding: 20px 0px 0px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 60px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 35px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 40%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 60px;
+        width: auto;
+    }
+}
+
+@media(min-width: 1920px) {
+    /* MENUTAP */
+    .menuTap {
+        padding-top: 100px;
+    }
+    .menuTap .menuTap__content .tab .tablinks {
+        z-index: 100;
+    }
+    .tab {
+        text-align: center;
+    }
+    .tab button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    /*============================= FULFILL SOLUTION======================*/
+    /* fulfill banner */
+    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
+        padding-top: 40px;
+    }
+    .fulfillment .fulfillment__banner .fulfill__banner-content {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* fulfill features */
+    .fulfillment__features .features__item {
+        padding: 0 30px;
+        height: 250px;
+    }
+    .fulfillment__features .features__item .features__item__content .features-img img {
+        margin: 0;
+        height: auto;
+        width: 70px;
+    }
+    .fulfillment__features h3.white__heading3 {
+        padding: 20px 0 0;
+    }
+    /* fulfill platform */
+    .fulfillment__platform .fulfillment__platform__content {
+        width: 70%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .white__heading2 {
+        padding: 20px 0 30px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
+        padding: 0;
+        line-height: 10px;
+    }
+    .fulfillment__platform .fulfillment__platform__content .col-6 {
+        padding: 20px 10px;
+    }
+    /* Fulfill Ecosystem */
+    .fulfillment__ecosystem .fulfillment__ecosystem__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+        /* padding: 32px 0 20px */
+        padding-bottom: 40px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+        padding-bottom: 30px;
+        width: 70%;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
+        padding: 0 10px;
+    }
+    .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
+        padding: 0 15px;
+    }
+    /* ======================= E-COMMERCE SOLUTION=================== */
+    /* EC banner */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-img {
+        padding-top: 40px;
+    } */
+    /* .ecommerce .ecommerce__banner .ecommerce__banner-content {
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    } */
+    /* Ec info */
+    #S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+        padding: 0 20px;
+    }
+    /* Ec Features */
+    .ecommerce__feature {
+        padding-bottom: 64px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .white__heading3 {
+        font-size: 24px;
+        height: 90px;
+    }
+    .ecommerce__feature .ecommerce__feature__content .col-12 .ecommerce-img img {
+        height: 70px;
+    }
+    /* ======================FINTECH============================ */
+    /* .fintech .fintech__banner .fintech__banner-content {
+        top: 50%;
+        left: 5%;
+    } */
+    .fintech .fintech__banner .fintech__banner-content .white__heading2 {
+        text-align: left;
+        padding-bottom: 0;
+    }
+    /* fintech banking */
+    .fintech .fintech__banking .fintech__banking__content {
+        margin-top: 50px;
+    }
+    .fintech .fintech__banking .fintech__banking__content .col-4 {
+        padding: 0 30px;
+    }
+    /* fintech carousel */
+    .fintech__carousel .carousel-item .white__heading2 {
+        padding-bottom: 10px;
+    }
+    .fintech__carousel .carousel-item {
+        padding: 70px;
+    }
+    .fintech__carousel .carousel-indicators [data-bs-target] {
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+    }
+    .fintech__carousel .carousel-indicators {
+        justify-content: left;
+        margin: 0 60px 20px;
+    }
+    /* =====================REAL ESTATE SOLUTION=================== */
+    /*estate banner  */
+    /* .estate .estate__banner .estate__banner-img {
+        padding-top: 40px;
+    } */
+    /* .estate .estate__banner .estate__banner-content {
+        top: 59%;
+    } */
+    .estate .estate__banner .estate__banner-content .estate-img img {
+        margin: 0;
+    }
+    /*  estate features*/
+    .estate__features .estate__features__content h3.white__heading3 {
+        font-size: 24px;
+        padding: 20px 0px 0px;
+    }
+    .estate .estate__features .estate__features__content .col-6 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .col-12 {
+        padding: 20px 40px;
+    }
+    .estate .estate__features .estate__features__content .estate__item .img-fluid {
+        height: 70px;
+    }
+    /* =======================BLOCKCHAIN============================ */
+    /*blockchain banner  */
+    /* .blockchain .blockchain__banner .blockchain__banner-img {
+        padding-top: 40px;
+    } */
+    /* .blockchain .blockchain__banner .blockchain__banner-content {
+        top: 46%;
+        left: 5%;
+    } */
+    .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
+        margin: 0;
+    }
+    /*  blockchain features*/
+    .blockchain .blockchain__features .blockchain__features__content .col-4 {
+        padding: 30px 20px 10px;
+    }
+    .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
+        margin: 0;
+        height: 70px;
+        width: auto;
+    }
+}

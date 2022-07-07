@@ -13,6 +13,7 @@
     position: relative;
     padding-top: 90px;
     overflow: hidden;
+    padding: 0 0 35px;
 }
 
 .menuTap .menuTap__content .tab .tablinks {
@@ -43,6 +44,7 @@
 }
 
 .tab .tablinks.active {
+    color: #fff !important;
     font-family: "Msr-Bold";
 }
 
@@ -55,19 +57,18 @@
 }
 
 
-/*========================================= FULFILL SOLUTION=========================================*/
+/*========================== FULFILL SOLUTION========================*/
 
 
 /* fulfill banner */
 
-.fulfillment .fulfillment__banner .fulfil__banner-img {
-    padding-top: 35px;
+.fulfillment .fulfillment__banner {
     position: relative;
 }
 
 .fulfillment .fulfillment__banner .fulfill__banner-content {
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -78,24 +79,18 @@
 
 /* fulfill features */
 
-.fulfillment__features .fulfillment__features-top {
-    margin-bottom: 30px;
-}
-
 .fulfillment__features .features__item {
     padding: 0 30px;
-}
-
-.fulfillment__features .features__item__content {
     height: 200px;
 }
 
-.fulfillment__features .features__item__content .features-img .img-fluid {
+.fulfillment__features .features__item .features__item__content .features-img img {
     margin: 0;
+    height: auto;
+    width: 60px;
 }
 
-.fulfillment__features h3 {
-    font-size: 20px;
+.fulfillment__features h3.white__heading3 {
     padding: 20px 0 0;
 }
 
@@ -103,22 +98,29 @@
 /* fulfill platform */
 
 .fulfillment__platform {
-    position: relative;
+    background-image: url(../img/black\ bgr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .fulfillment__platform .fulfillment__platform__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.fulfillment__platform .fulfillment__platform__content .white__heading2 {
+    padding: 20px 0 10px;
 }
 
 .fulfillment__platform .fulfillment__platform__content .col-6 .white__heading3 {
     padding: 0;
+    line-height: 10px;
 }
 
 .fulfillment__platform .fulfillment__platform__content .col-6 {
-    padding: 10px 30px;
+    padding: 20px 10px;
 }
 
 
@@ -131,43 +133,48 @@
 
 .fulfillment__ecosystem .fulfillment__ecosystem__content {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
-    margin: auto;
+    width: 50%;
 }
 
-.fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop {
-    padding-bottom: 40px;
-    margin: auto;
-    display: flex;
-    align-items: center;
+.fulfillment__ecosystem .fulfillment__ecosystem__content .white__heading2 {
+    padding: 32px 0 20px
+}
+
+.fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-10 {
+    padding-bottom: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-10 {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoTop .col-4 {
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
+    padding: 0 10px;
 }
 
 .fulfillment__ecosystem .fulfillment__ecosystem__content .fulfillment__content-logoBottom .col-3 {
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
+    padding: 0 15px;
 }
 
 
 /* E-COMMERCE SOLUTION  */
 
-.ecommerce .ecommerce__banner .ecommerce__banner-img {
-    padding-top: 35px;
+
+/* EC banner */
+
+.ecommerce .ecommerce__banner {
     position: relative;
 }
 
 .ecommerce .ecommerce__banner .ecommerce__banner-content {
     position: absolute;
-    top: 14%;
+    top: 24%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -175,12 +182,23 @@
     margin: auto;
 }
 
-.ecommerce__info .ecommerce__info__content .white__heading2 {
+
+/* Ec info */
+
+#S_ecommerce .ecmmerce__info .ecommerce__info__content {
+    padding-top: 64px;
+}
+
+#S_ecommerce .ecmmerce__info .ecommerce__info__content .white__heading2 {
     padding-bottom: 0;
 }
 
-.ecommerce__info .ecommerce__info__content .white__heading3 {
-    padding-bottom: 0;
+h3.white__heading3 {
+    padding: 28px 0 0;
+}
+
+#S_ecommerce .ecmmerce__info .ecommerce__info__content .col-6 {
+    padding: 0 20px;
 }
 
 
@@ -190,9 +208,27 @@
     padding-bottom: 32px;
 }
 
-.ecommerce__feature .ecommerce__feature__content .white__heading3 {
-    font-size: 20px;
-    height: 110px;
+.ecommerce__feature .ecommerce__feature__content .col-12 {
+    padding: 0 10px;
+}
+
+.ecommerce__feature .ecommerce__feature__content .col-12 .white__heading3 {
+    font-size: 18px;
+}
+
+.ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item {
+    height: 380px;
+}
+
+.ecommerce__feature .ecommerce__feature__content .col-12 .ecommerce-img img {
+    margin: 0;
+    height: 50px;
+    width: auto;
+}
+
+.ecommerce__feature .ecommerce__feature__content .ecommerce__feature__item h3.white__heading3 {
+    height: 90px;
+    font-family: "Msr-SemiBold";
 }
 
 
@@ -201,26 +237,20 @@
 
 /* Fintech banner */
 
-.fintech .fintech__banner .fintech__banner-img {
+.fintech .fintech__banner {
     position: relative;
-    padding-top: 35px;
+    /* padding-top: 35px; */
 }
 
 .fintech .fintech__banner .fintech__banner-content {
     position: absolute;
-    top: 18%;
+    top: 60%;
     left: 5%;
 }
 
 .fintech .fintech__banner .fintech__banner-content .white__heading2 {
     text-align: left;
     padding-bottom: 0;
-}
-
-.fintech .fintech__banner .fintech__banner-content .white__line {
-    margin: 0 0 5px;
-    width: 50px;
-    height: 6px;
 }
 
 .fintech .fintech__banner .fintech__banner-content .fintech-img img {
@@ -262,6 +292,10 @@
     display: none;
 }
 
+.fintech__carousel .carousel {
+    margin-bottom: 0;
+}
+
 .fintech__carousel .carousel-item .white__heading2 {
     text-align: left;
     padding-bottom: 10px;
@@ -293,26 +327,20 @@
 
 /*estate banner  */
 
-.estate .estate__banner .estate__banner-img {
+.estate .estate__banner {
     position: relative;
-    padding-top: 35px;
+    /*   padding-top: 35px; */
 }
 
 .estate .estate__banner .estate__banner-content {
     position: absolute;
-    top: 20%;
+    top: 75%;
     left: 5%;
 }
 
 .estate .estate__banner .estate__banner-content .white__heading2 {
     text-align: left;
     padding-bottom: 0;
-}
-
-.estate .estate__banner .estate__banner-content .white__line {
-    margin: 0 0 5px;
-    width: 50px;
-    height: 6px;
 }
 
 .estate .estate__banner .estate__banner-content .estate-img img {
@@ -322,13 +350,20 @@
 
 /*  estate features*/
 
-.estate .estate__features .estate__features__content .col-6 {
-    padding: 20px;
+.estate__features .estate__features__content h3.white__heading3 {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 0px 0px;
+}
+
+.estate .estate__features .estate__features__content .col-6 .col-12 {
+    padding: 10px 40px;
 }
 
 .estate .estate__features .estate__features__content .estate__item .img-fluid {
     margin: 0;
-    object-fit: contain;
+    height: 50px;
+    width: auto;
 }
 
 
@@ -337,26 +372,21 @@
 
 /*blockchain banner  */
 
-.blockchain .blockchain__banner .blockchain__banner-img {
+.blockchain .blockchain__banner {
     position: relative;
-    padding-top: 35px;
+    /* padding-top: 35px; */
 }
 
 .blockchain .blockchain__banner .blockchain__banner-content {
     position: absolute;
-    top: 12%;
+    top: 50%;
     left: 5%;
+    width: 90%;
 }
 
 .blockchain .blockchain__banner .blockchain__banner-content .white__heading2 {
     text-align: left;
     padding-bottom: 0;
-}
-
-.blockchain .blockchain__banner .blockchain__banner-content .white__line {
-    margin: 0 0 5px;
-    width: 50px;
-    height: 6px;
 }
 
 .blockchain .blockchain__banner .blockchain__banner-content .blockchain-img img {
@@ -372,5 +402,6 @@
 
 .blockchain .blockchain__features .blockchain__features__content .blockchain__item .img-fluid {
     margin: 0;
-    object-fit: contain;
+    height: 50px;
+    width: auto;
 }
