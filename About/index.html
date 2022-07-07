@@ -18,24 +18,22 @@
     <!--  Font Awsome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Main Css -->
-
     <link rel="stylesheet" href="/css/about.css">
-
+    <link rel="stylesheet" href="/css/general.css">
     <!-- Responsive -->
     <link rel="stylesheet" href="/responsive/resAbout.css">
-    <link rel="stylesheet" href="/css/general.css">
 
     <title>EGITech | About us</title>
 </head>
 
 <body>
     <!-- Header -->
-    <header class="header ">
-
+    <header class="header" id="headerEgitech">
 
         <div class="header__content ">
+
             <nav class=" navbar navbar-expand-md ">
-                <a class="navbar-brand " href="/index.html"><img class="img-fluid" src="/img/EgitechLogo.png" alt="logoEgitech"></a>
+                <a class="navbar-brand " href="/Homepage/"><img class="img-fluid" src="/img/EgitechLogo.png" alt="logoEgitech"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEgitech" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -47,13 +45,13 @@
                 <div class="collapse navbar-collapse " id="navbarEgitech">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
-                            <a id="ahome" class="nav-link homepage" href="/index.html">HOME</a>
+                            <a id="ahome" class="nav-link homepage" href="/Homepage/">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link aboutUs" href="/About/">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link services" href="/.Services/">SERVICES</a>
+                            <a class="nav-link services" href="/Services/">SERVICES</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link solution" href="/Solution/">SOLUTION</a>
@@ -76,10 +74,13 @@
 
 
     </header>
+
+
+
     <!-- Banner -->
     <section class="about__banner">
         <div class="about__banner-img ">
-            <img class="img-fluid " src="/img/about 84.png" alt="banner about">
+            <img src="/img/about 84.png" alt="banner about">
         </div>
         <div class="about__banner-content container ">
             <h2 class="white__heading2">Creating the most <br> Technology Platform <br> for Business</h2>
@@ -188,74 +189,79 @@
     </section>
     <!-- Carousel -->
     <section class="about__carousel">
-        <!-- <div class="about__carousel-img">
-            <img src="/img/black bgr.png" alt="">
-        </div> -->
-        <div class="carousel about__carousel__content" data-flickity='{ "wrapAround": true,"autoPlay": 10000 }'>
-            <div class="carousel-cell">
-                <div class="row">
-                    <div class="col-6 carousel-cell-top ">
-                        <h2 class="white__heading2">Multiple Access Channels to reduce your operational costst</h2>
-                        <p class="white__para">You can extend your banking network by employing agents to offer banking services to banked and unbanked customers with our branchless banking feature. It empowers you to get access to local entities and unbanked customers in rural
-                            areas, increase your business and reach wider audience with ease</p>
+        <div id="carouselExampleIndicators" class="carousel slide about__carousel__content " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-6 carousel-item-top  ">
+                            <h2 class="white__heading2">EGITECH Selection & <br> Implementation Process</h2>
+                            <p class="white__para">Whether you need our services for establishing, or enhancing your current project management capabilities, our team are intimately familiar with a whole range of your needs from the word go. We take the time to get to know
+                                everything we need about you, to get your project managed to successful completion, as we ensure that all of our processes and tools are adapted to suit not only your resources, but for the short and long-term goals of
+                                your business.</p>
 
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="/img/about 4.png" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="/img/Frame 17.png" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-cell">
-                <div class="row">
-                    <div class="col-6 carousel-cell-top ">
-                        <h2 class="white__heading2">High-Level Architecture to Encourage Financial Inclusion</h2>
-                        <p class="white__para">Our Adaptable digital payment platform is sculpted with the ambition of increasing financial inclusion & boosting economic development by empowering Banks, FinTech companies, and financial services providers with our Agency Banking
-                            Solutions.
-                        </p>
-
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="/img/about 17.png" alt="">
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-6 carousel-item-top">
+                            <h2 class="white__heading2">High-Level Architecture to <br> Encourage Financial Inclusion</h2>
+                            <p class="white__para">Our Adaptable digital payment platform is sculpted with the ambition of increasing financial inclusion & boosting economic development by empowering Banks, FinTech companies, and financial services providers with our Agency
+                                Banking Solutions.</p>
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="/img/Rectangle 4.png" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-cell">
-                <div class="row">
-                    <div class="col-6 carousel-cell-top ">
-                        <h2 class="white__heading2">EGITECH Selection & <br> Implementation Process</h2>
-                        <p class="white__para">Whether you need our services for establishing, or enhancing your current project management capabilities, our team are intimately familiar with a whole range of your needs from the word go. We take the time to get to know everything
-                            we need about you, to get your project managed to successful completion, as we ensure that all of our processes and tools are adapted to suit not only your resources, but for the short and long-term goals of your business.</p>
-
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="/img/about 4.png" alt="">
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-6 carousel-item-top">
+                            <h2 class="white__heading2">Multiple Access Channels to <br> reduce your operational costst</h2>
+                            <p class="white__para">You can extend your banking network by employing agents to offer banking services to banked and unbanked customers with our branchless banking feature. It empowers you to get access to local entities and unbanked customers
+                                in rural areas, increase your business and reach wider audience with ease</p>
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="/img/Frame 17.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
     <!-- Experience -->
     <section class="about__experience ">
-        <div class="experience-img">
-            <img src="/img/blue frame.png" alt="">
-        </div>
-        <div class="about__experience__content container ">
-            <h2 class="white__heading2">Industry Experience</h2>
-            <div class="row ">
-                <div class="about__experience__line col-2  ">
-                    <div class="about__experience__timeline">
-                        <span class="middle"></span>
-                    </div>
-                </div>
-                <div class="about__experience__item col-10">
+
+
+        <h2 class="white__heading2">Industry Experience</h2>
+        <div class="about__experience__content dots-list ">
+
+            <ol>
+                <li>
                     <p class="white__para">Our team commits to make it our business to continuously develop and <br> enhance our industry knowledge base to effectively develop business software <br> meeting clients in a wide range of business verticals</p>
+                </li>
+                <li>
                     <p class="white__para">Our team of experienced IT professionals located internationally and in Vietnam <br> can help transform and improve your existing business operations with our <br> custom software solutions that are built to meet all the specific requirements
                         of your industry
                     </p>
+                </li>
+                <li>
                     <p class="white__para">We help you avoid all the potential pitfalls that can occur throughout the entire <br> development process, ensure quality and response time, and accelerate time to <br> market</p>
-                </div>
-            </div>
+                </li>
+
+            </ol>
         </div>
+
+
     </section>
     <!-- Incubator -->
     <section class="about__incubator section">
@@ -324,7 +330,7 @@
     <footer class="footer">
         <div class="footer__content container  ">
             <div class="col-12 col-sm-8">
-                <a class="footer-brand  " href="/index.html"> <img class="mx-0" src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
+                <a class="footer-brand  " href="/Homepage/"> <img class="mx-0 footer-egitech " src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
                 <p>EGITECH COMPANY LIMITED</p>
                 <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
                     <br> Hotline: +84 666 858 659

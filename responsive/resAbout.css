@@ -25,25 +25,28 @@
     
     @media(min-width: 1920px) {
         /* About banner */
-        .about__banner .about__banner-img {
-            padding-top: 100px;
+        .about__banner {
+            position: relative;
+            padding-top: 80px;
         }
         .about__banner .about__banner-content {
-            top: 3%;
-            left: 12%;
+            position: absolute;
+            top: 30%;
+            left: 10%;
         }
         .about__banner .about__banner-content .white__heading2 {
+            text-align: left;
             padding-bottom: 0;
-            font-size: 40px;
         }
         .about__banner .about__banner-content .white__line {
             margin: 0 0 5px;
-            width: 64px;
-            height: 8px;
+            width: 50px;
+            height: 6px;
         }
         /* About mission & vision */
         .about__mission .white__heading2 {
             padding-bottom: 0;
+            text-align: left;
         }
         .about__mission .white__para {
             padding: 0;
@@ -53,14 +56,23 @@
         }
         /* About value */
         .about__value {
-            padding: 64px;
+            background-image: url(../img/Frame\ blue.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px;
+            width: 100%;
         }
         .about__value .about__value__content ul {
+            display: flex;
             width: 70%;
+            margin: auto;
         }
         .about__value .about__value__content ul .about__value__item {
             margin-right: 60px;
+            color: #fff;
             font-size: 16px;
+            font-family: "Msr-Bold";
         }
         /* About model */
         .about__models .about__models__content .about__models__item .white__heading3 {
@@ -69,62 +81,91 @@
         .about__models .about__models__content .about__models__item .models-title {
             padding-bottom: 10px;
         }
-        /* About carousel */
-        .about__carousel .carousel-cell {
-            margin: 60px;
-        }
-        .about__carousel .carousel-cell .col-6 {
-            padding: 0 10px;
-            margin: auto 0;
-        }
-        .about__carousel .carousel-cell-top .white__heading2 {
-            padding-bottom: 10px;
-        }
-        .about__carousel .flickity-page-dots {
-            bottom: 8%;
-            margin-left: 60px;
-        }
-        .about__carousel .flickity-page-dots .dot {
-            width: 8px;
-            height: 8px;
-            margin: 0 4px;
-        }
-        /* About Experience */
-        .about__experience .about__experience__line {
-            margin: 120px 0;
-        }
-        .about__experience .about__experience__content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 70%;
+        .about__models .about__models__content .about__models__item .models-title .white__line {
             margin: 0 auto;
         }
-        .about__experience .about__experience__content .white__heading2 {
+        /* About carousel */
+        .about__carousel {
+            background-image: url(/img/black\ bgr.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .about__carousel .about__carousel__content {
+            padding: 60px;
+        }
+        .carousel-item {
+            display: none;
+            transition: transform .9s ease-in-out;
+        }
+        .about__carousel .carousel-item .white__heading2 {
+            align-items: center;
+            text-align: left;
             padding-bottom: 10px;
         }
-        .about__experience .about__experience__line .about__experience__timeline {
-            height: 2px;
-            width: 210px;
-            margin: 20px;
+        .about__carousel .carousel-indicators [data-bs-target] {
+            height: 8px;
+            width: 8px;
+            border-radius: 100%;
+            margin: 0 4px;
         }
-        .about__experience .about__experience__timeline::before {
-            height: 14px;
-            width: 14px;
-            transform: translate(0%, -45%);
+        .about__carousel .carousel-indicators {
+            justify-content: left;
+            margin: 0 60px 20px;
         }
-        .about__experience .about__experience__timeline span.middle {
-            margin: 0;
-            height: 14px;
-            width: 14px;
-            transform: translate(110px, -145%);
+        /* About Experience */
+        .about__experience {
+            background-image: url(/img/blue\ frame.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 32px 0;
         }
-        .about__experience .about__experience__timeline::after {
-            height: 14px;
-            width: 14px;
-            border-radius: 50%;
-            transform: translate(210px, -245%);
+        .about__experience .dots-list {
+            width: 70%;
+            margin: auto;
+        }
+        .about__experience .dots-list ol {
+            /* padding-left: 150px; */
+            position: relative;
+            margin-bottom: 20px;
+            list-style: none !important;
+        }
+        .about__experience .dots-list ol li {
+            position: relative;
+            margin-top: 1.0em;
+            margin-bottom: 22px;
+            padding-left: 30px;
+        }
+        .about__experience .dots-list ol li .date {
+            position: absolute;
+            left: -115px;
+            font-weight: bold;
+            font-size: 1em;
+            top: -2px;
+        }
+        .about__experience .dots-list ol li:before {
+            content: "";
+            background: #fff;
+            position: absolute;
+            width: 2px;
+            top: 5px;
+            bottom: -25px;
+            left: -25px;
+        }
+        .about__experience .dots-list ol li:after {
+            content: "";
+            background: #fff;
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            border-radius: 100%;
+            top: 5px;
+            left: -31px;
+        }
+        .about__experience .dots-list ol li:last-child:before {
+            content: "";
+            background: rgba(0, 0, 0, 0);
         }
         /* About incubator */
         .about__incubator .about__incubator__content .about__incubator__item {
@@ -132,19 +173,30 @@
         }
         .about__incubator .about__incubator__content .about__incubator__item img {
             margin: 0;
+            height: 60px;
         }
         .about__incubator .about__incubator__content .about__incubator__item .white__heading3 {
             padding: 10px 0;
         }
         /* About teams */
+        .about__teams {
+            background-image: url(../img/Frame\ blue.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         .about__teams .about__teams__content .col-3 .about__teams__item {
             padding: 0 30px;
         }
         .about__teams .about__teams__content .col-3 .about__teams__item span {
+            font-family: "Msr-Bold";
             font-size: 20px;
+            color: #FFFFFF;
         }
         .about__teams .about__teams__content .col-3 .about__teams__item p {
+            font-family: "Pp-Light";
             font-size: 14px;
+            color: #FFFFFF;
         }
         .about__teams .about__teams__content .col-3 .about__teams__item .teams-avt {
             padding-bottom: 20px;
