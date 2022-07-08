@@ -11,15 +11,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Flickity CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <!-- Responsive -->
-    <link rel="stylesheet" href="/responsive/resCareerDetail.css">
+
     <!-- Font Css -->
     <link rel="stylesheet" href="/css/fonts.css">
     <!--  Font Awsome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Main Css -->
-    <link rel="stylesheet" href="/css/general.css">
+
     <link rel="stylesheet" href="/css/careerDetail.css">
+    <link rel="stylesheet" href="/css/general.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="/responsive/resCareerDetail.css">
 
     <title>EGITech | Career Detail</title>
 </head>
@@ -75,14 +77,14 @@
         <div class="career__Detail__content container">
             <div class="detail__title">
                 <p class="white__para">
-                    <a href="/html/career.html">Career</a>
+                    <a href="/Career/">Career</a>
                     <span>|</span> <span>Software Developer (ReactJS, PHP)</span></p>
-                <a href="/html/career.html"> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ArrowLeft"><path d="M11 5l-7 7 7 7"/><path d="M4 12h16"/></svg></a>
+                <a href="/Career/"> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ArrowLeft"><path d="M11 5l-7 7 7 7"/><path d="M4 12h16"/></svg></a>
                 <!-- <i class="ai-arrow-left"></i> -->
             </div>
 
             <div class="row">
-                <div class="col-8">
+                <div class=" col-12 col-lg-8 detail__item__left">
                     <div class="row">
                         <div class="col-12">
                             <h3 class="white__heading3 ">Software Developer (ReactJS, PHP)</h3>
@@ -118,12 +120,13 @@
                             </ul>
 
                         </div>
-                        <a href="/applyForm.html"><button class="blue__btn__large">APPLY NOW</button></a>
+                        <a class="btn__bottom" href="/ApplyForm/"><button class="blue__btn__large">APPLY NOW</button></a>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="col-12">
-                        <a href="/applyForm.html"> <button class="blue__btn__large">APPLY NOW</button></a>
+                <div class="col-12 col-lg-4 detail__item__right ">
+
+                    <div class="col-12 btn__large">
+                        <a href="/ApplyForm/"> <button class="blue__btn__large">APPLY NOW</button></a>
                     </div>
                     <div class="col-12 detail__right">
                         <p><span class="fw-bold">Type: </span> Full time</p>
@@ -139,18 +142,23 @@
                         <p class="mb-0"><span class="fw-bold">Working Office: </span> 5th Floor, 35 Nguyen Van Trang, Pham Ngu Lao Ward, District 1, Ho Chi Minh City, Vietnam</p>
                     </div>
                 </div>
+
             </div>
+            <div class="btn__mobile">
+                <a href="/ApplyForm/"><button class="blue__btn__large">APPLY NOW</button></a>
+            </div>
+
         </div>
 
-    </div>
 
+    </div>
 
 
     <!-- footer -->
     <footer class="footer">
         <div class="footer__content container  ">
             <div class="col-12 col-sm-8">
-                <a class="footer-brand  " href="/Homepage/"> <img class="mx-0" src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
+                <a class="footer-brand  " href="/Homepage/"> <img class="mx-0 footer-egitech " src="/img/EgitechLogo.png" alt="logoEgitech"> </a>
                 <p>EGITECH COMPANY LIMITED</p>
                 <p>Tầng 5, 35 Nguyễn Văn Tráng, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
                     <br> Hotline: +84 666 858 659

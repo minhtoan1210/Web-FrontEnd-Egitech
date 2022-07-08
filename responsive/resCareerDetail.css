@@ -1,27 +1,464 @@
     /* mobile */
     
-    @media(min-width: 320px) and (max-width: 360px) {}
+    @media(min-width: 320px) and (max-width: 360px) {
+        .careerDetail {
+            padding-top: 60px;
+        }
+        .careerDetail .white__para {
+            font-size: 12px;
+            line-height: 22px;
+            margin-bottom: 8px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 0;
+            font-size: 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            display: none;
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            display: none;
+            margin: 20px 0 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 12px;
+            padding: 15px;
+            margin-top: 0px;
+        }
+        .careerDetail .career__Detail__content .detail__right p {
+            margin-bottom: 5px;
+        }
+        .careerDetail .btn__mobile {
+            display: block;
+            text-align: center;
+        }
+        .careerDetail .blue__btn__large {
+            margin-top: 30px;
+            font-size: 14px;
+            padding: 8px 14px;
+        }
+    }
     
-    @media(min-width: 361px) and (max-width: 540px) {}
+    @media(min-width: 361px) and (max-width: 540px) {
+        .careerDetail {
+            padding-top: 60px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 0;
+            font-size: 16px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            display: none;
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            display: none;
+            margin: 20px 0 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 12px;
+            padding: 15px;
+            margin-top: 0px;
+        }
+        .careerDetail .career__Detail__content .detail__right p {
+            margin-bottom: 5px;
+        }
+        .careerDetail .btn__mobile {
+            display: block;
+            text-align: center;
+        }
+        .careerDetail .blue__btn__large {
+            margin-top: 30px;
+            font-size: 14px;
+            padding: 8px 14px;
+        }
+    }
     
-    @media(min-width: 541px) and (max-width: 574px) {}
+    @media(min-width: 541px) and (max-width: 574px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 0;
+            font-size: 18px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            display: none;
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            display: none;
+            margin: 20px 0 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 12px;
+            padding: 15px;
+            margin-top: 0px;
+        }
+        .careerDetail .career__Detail__content .detail__right p {
+            margin-bottom: 5px;
+        }
+        .careerDetail .btn__mobile {
+            display: block;
+            text-align: center;
+        }
+        .careerDetail .blue__btn__large {
+            margin-top: 30px;
+            font-size: 14px;
+            padding: 8px 14px;
+        }
+    }
     
-    @media(min-width: 575px) and (max-width: 768px) {}
+    @media(min-width: 575px) and (max-width: 768px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 0;
+            font-size: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            display: none;
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            display: none;
+            margin: 20px 0 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 14px;
+            padding: 20px;
+            margin-top: 0px;
+        }
+        .careerDetail .career__Detail__content .detail__right p {
+            margin-bottom: 5px;
+        }
+        .careerDetail .btn__mobile {
+            display: block;
+            text-align: center;
+        }
+        .careerDetail .blue__btn__large {
+            margin-top: 30px;
+            font-size: 14px;
+            padding: 8px 14px;
+        }
+    }
     /*============================tablet====================================== */
     
-    @media(min-width: 769px) and (max-width: 960px) {}
+    @media(min-width: 769px) and (max-width: 960px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 0;
+            font-size: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 50px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            display: none;
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            display: none;
+            margin: 20px 0 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 14px;
+            padding: 20px;
+            margin-top: 0px;
+        }
+        .careerDetail .career__Detail__content .detail__right p {
+            margin-bottom: 5px;
+        }
+        .careerDetail .btn__mobile {
+            display: block;
+            text-align: center;
+        }
+        .careerDetail .blue__btn__large {
+            margin-top: 20px;
+            font-size: 14px;
+            padding: 10px 14px;
+        }
+    }
     
-    @media(min-width: 961px) and (max-width: 1044px) {}
+    @media(min-width: 961px) and (max-width: 1044px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 0;
+            font-size: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 50px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            display: none;
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            display: none;
+            margin: 20px 0 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 16px;
+            padding: 20px;
+            margin-top: 0px;
+        }
+        .careerDetail .career__Detail__content .detail__right p {
+            margin-bottom: 5px;
+        }
+        .careerDetail .btn__mobile {
+            margin-top: 30px;
+            display: block;
+            text-align: center;
+        }
+    }
     
-    @media(min-width: 1045px) and (max-width: 1089px) {}
+    @media(min-width: 1045px) and (max-width: 1089px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 0;
+            font-size: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 50px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            margin: 20px 0 14px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 16px;
+            padding: 20px;
+            margin-top: 0px;
+        }
+        .careerDetail .career__Detail__content .detail__right p {
+            margin-bottom: 5px;
+        }
+        .careerDetail .btn__mobile {
+            display: none;
+        }
+    }
     
-    @media(min-width: 1089px) and (max-width: 1200px) {}
+    @media(min-width: 1089px) and (max-width: 1200px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+            padding: 10px 0;
+            font-size: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 50px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            margin-top: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 16px;
+            padding: 24px;
+            margin-top: 30px;
+        }
+        .careerDetail .btn__mobile {
+            display: none;
+        }
+    }
     
-    @media(min-width: 1201px) and (max-width: 1300px) {}
+    @media(min-width: 1201px) and (max-width: 1300px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 50px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            margin-top: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 16px;
+            padding: 24px;
+            margin-top: 30px;
+        }
+        .careerDetail .btn__mobile {
+            display: none;
+        }
+    }
     
-    @media(min-width: 1301px) and (max-width: 1500px) {}
+    @media(min-width: 1301px) and (max-width: 1500px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 50px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            margin-top: 16px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__para {
+            margin-bottom: 0;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 16px;
+            padding: 24px;
+            margin-top: 30px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            margin-top: 30px;
+        }
+        .careerDetail .btn__mobile {
+            display: none;
+        }
+    }
     
-    @media(min-width: 1501px) and (max-width: 1919px) {}
+    @media(min-width: 1501px) and (max-width: 1919px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 20px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom {
+            height: 50px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left a.btn__bottom .blue__btn__large {
+            margin-top: 10px;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 16px;
+            padding: 24px;
+            margin-top: 30px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            margin-top: 20px;
+        }
+        .careerDetail .btn__mobile {
+            display: none;
+        }
+    }
     
-    @media(min-width: 1920px) {}
+    @media(min-width: 1920px) {
+        .careerDetail {
+            padding-top: 100px;
+        }
+        .careerDetail .career__Detail__content .detail__item__left .white__heading3 {
+            margin-top: 30px;
+        }
+        .careerDetail .career__Detail__content ul {
+            margin-left: 30px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            margin-top: 0;
+        }
+        .careerDetail .career__Detail__content .detail__right {
+            font-size: 16px;
+            padding: 24px;
+            margin-top: 30px;
+        }
+        .careerDetail .career__Detail__content .btn__large .blue__btn__large {
+            margin-top: 30px;
+        }
+        .careerDetail .btn__mobile {
+            display: none;
+        }
+    }
     /* ========== */

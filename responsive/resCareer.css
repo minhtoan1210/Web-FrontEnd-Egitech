@@ -1,27 +1,207 @@
     /* mobile */
     
-    @media(min-width: 320px) and (max-width: 360px) {}
+    @media(min-width: 320px) and (max-width: 360px) {
+        .career {
+            padding-top: 80px;
+        }
+        .career .career__content {
+            padding-top: 10px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 12px;
+            width: 100%;
+            height: 46px;
+        }
+        .career .career__content .career__item {
+            padding: 10px;
+        }
+    }
     
-    @media(min-width: 361px) and (max-width: 540px) {}
+    @media(min-width: 361px) and (max-width: 540px) {
+        .career {
+            padding-top: 90px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 12px;
+            width: 100%;
+            height: 46px;
+        }
+        .career .career__content .career__item {
+            padding: 10px;
+        }
+    }
     
-    @media(min-width: 541px) and (max-width: 574px) {}
+    @media(min-width: 541px) and (max-width: 574px) {
+        .career {
+            padding-top: 90px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 14px;
+            width: 100%;
+            height: 48px;
+        }
+        .career .career__content .career__item {
+            padding: 10px;
+        }
+    }
     
-    @media(min-width: 575px) and (max-width: 768px) {}
+    @media(min-width: 575px) and (max-width: 768px) {
+        .career {
+            padding-top: 90px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 14px;
+            width: 100%;
+            height: 48px;
+        }
+        .career .career__content .career__item {
+            padding: 10px;
+        }
+    }
     /*============================tablet====================================== */
     
-    @media(min-width: 769px) and (max-width: 960px) {}
+    @media(min-width: 769px) and (max-width: 960px) {
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 14px;
+            width: 100%;
+            height: 54px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
     
-    @media(min-width: 961px) and (max-width: 1044px) {}
+    @media(min-width: 961px) and (max-width: 1044px) {
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 16px;
+            width: 100%;
+            height: 58px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
     
-    @media(min-width: 1045px) and (max-width: 1089px) {}
+    @media(min-width: 1045px) and (max-width: 1089px) {
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 16px;
+            width: 100%;
+            height: 58px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
     
-    @media(min-width: 1089px) and (max-width: 1200px) {}
+    @media(min-width: 1089px) and (max-width: 1200px) {
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 16px;
+            width: 100%;
+            height: 58px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
     
-    @media(min-width: 1201px) and (max-width: 1300px) {}
+    @media(min-width: 1201px) and (max-width: 1300px) {
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 16px;
+            width: 100%;
+            height: 58px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
     
-    @media(min-width: 1301px) and (max-width: 1500px) {}
+    @media(min-width: 1301px) and (max-width: 1500px) {
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 16px;
+            width: 100%;
+            height: 58px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
     
-    @media(min-width: 1501px) and (max-width: 1919px) {}
+    @media(min-width: 1501px) and (max-width: 1919px) {
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 16px;
+            width: 100%;
+            height: 58px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
     
-    @media(min-width: 1920px) {}
-    /* ========== */
+    @media(min-width: 1920px) {
+        /* ========================================CAREER========================================== */
+        .career {
+            padding-top: 130px;
+        }
+        .career .career__content {
+            padding-top: 20px;
+        }
+        .career .career__content .career__item a button.btn {
+            font-size: 16px;
+            width: 100%;
+            height: 58px;
+        }
+        .career .career__content .career__item {
+            padding: 15px 12px;
+        }
+    }
