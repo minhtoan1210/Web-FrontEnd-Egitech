@@ -23,6 +23,8 @@
 }
 
 .blogDetail .blogDetail__content .blogTop .blogIc {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
     padding: 0 5px;
 }
 
@@ -54,6 +56,7 @@
 }
 
 .blogDetail .blogDetail__content .blogBottom .blogDetail-img img {
+    object-fit: fill;
     margin: 0;
     width: 100%;
     height: 636px;

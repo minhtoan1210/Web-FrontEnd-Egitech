@@ -6,11 +6,16 @@
 
 .blog .blog__content .blog__content__item {
     display: flex;
+    justify-content: center;
 }
 
 .blog .blog__content .blog__info .white__heading3 {
     padding: 10px 0 0;
     font-size: 22px;
+}
+
+.blog .blog__content .blog__info .gray__para {
+    line-height: 26px;
 }
 
 .blog .blog__content .blog__item {
@@ -29,21 +34,6 @@
     flex: 0 0 auto;
     width: 15%;
 }
-
-
-/* .blog .blog__content .blog__item .blog__datetime  img {
-    width: 22px;
-    height: 22px;
-} */
-
-
-/* .blog .blog__content .blog__item .blog__datetime span:first-of-type {
-    display: inline-block;
-    height: 4px;
-    width: 4px;
-    background: #FFFFFF;
-    border-radius: 100%;
-} */
 
 .blog .blog__content .blog__item .blog__datetime span.date {
     font-family: "Pp-Light";
