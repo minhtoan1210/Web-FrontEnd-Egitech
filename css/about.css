@@ -1,3 +1,21 @@
+body {
+    width: 100%;
+    max-width: 1920px;
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+    font-size: 12px;
+    font-family: "Arial";
+    line-height: normal;
+    color: #000;
+    text-transform: initial;
+    letter-spacing: normal;
+    font-weight: normal;
+    background: #FFFFFF;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
 /* About banner */
 
 .about__banner {
@@ -52,8 +70,8 @@
 
 .about__value .about__value__content ul {
     display: flex;
-    width: 70%;
-    margin: auto;
+    justify-content: center;
+    width: 100%;
 }
 
 .about__value .about__value__content ul .about__value__item {
