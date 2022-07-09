@@ -1,17 +1,6 @@
             /* mobile */
             
             @media(min-width: 320px) and (max-width: 360px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -30,6 +19,9 @@
                     height: 50px;
                 }
                 /* Web info */
+                .webApp .web__info .web__info__content .web__info-img {
+                    justify-content: center;
+                }
                 .webApp .web__info .web__info__content .white__heading2 {
                     padding: 0;
                     text-align: left;
@@ -246,17 +238,6 @@
             }
             
             @media(min-width: 361px) and (max-width: 540px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -275,6 +256,9 @@
                     height: 50px;
                 }
                 /* Web info */
+                .webApp .web__info .web__info__content .web__info-img {
+                    justify-content: center;
+                }
                 .webApp .web__info .web__info__content .white__heading2 {
                     padding: 0;
                     text-align: left;
@@ -491,17 +475,6 @@
             }
             
             @media(min-width: 541px) and (max-width: 574px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -520,6 +493,9 @@
                     height: 50px;
                 }
                 /* Web info */
+                .webApp .web__info .web__info__content .web__info-img {
+                    justify-content: center;
+                }
                 .webApp .web__info .web__info__content .white__heading2 {
                     padding: 0;
                     text-align: left;
@@ -736,17 +712,6 @@
             }
             
             @media(min-width: 575px) and (max-width: 768px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -765,6 +730,9 @@
                     height: 50px;
                 }
                 /* Web info */
+                .webApp .web__info .web__info__content .web__info-img {
+                    justify-content: center;
+                }
                 .webApp .web__info .web__info__content .white__heading2 {
                     padding: 0;
                     text-align: left;
@@ -976,17 +944,6 @@
             /*============================tablet====================================== */
             
             @media(min-width: 769px) and (max-width: 960px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -1018,6 +975,9 @@
                 /* sign ... */
                 .webApp .web__info .web__info__content .web__info__text .hide__web__info {
                     display: none;
+                }
+                .webApp .web__info .web__info__content .web__info-img {
+                    justify-content: center;
                 }
                 /* web process */
                 .web__process {
@@ -1213,17 +1173,6 @@
             }
             
             @media(min-width: 961px) and (max-width: 1044px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -1443,17 +1392,6 @@
             }
             
             @media(min-width: 1045px) and (max-width: 1089px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -1673,17 +1611,6 @@
             }
             
             @media(min-width: 1089px) and (max-width: 1200px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -1900,17 +1827,6 @@
             }
             
             @media(min-width: 1201px) and (max-width: 1300px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -2126,17 +2042,6 @@
             }
             
             @media(min-width: 1301px) and (max-width: 1500px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -2352,17 +2257,6 @@
             }
             
             @media(min-width: 1501px) and (max-width: 1919px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {
@@ -2577,17 +2471,6 @@
             }
             
             @media(min-width: 1920px) {
-                /* MENUTAP */
-                .menuTap .menuTap__content {
-                    width: 100%;
-                }
-                .menuTap {
-                    padding: 80px 0 40px;
-                }
-                .tab button {
-                    padding: 10px 16px;
-                    font-size: 12px;
-                }
                 /* <!-- ===================WEBSITE APP======================  -->  */
                 /*web banner  */
                 .webApp .web__banner .web__banner-content {

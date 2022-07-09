@@ -1,9 +1,10 @@
 /* MENUTAP */
 
-.menuTap .menuTap__content {
+
+/* .menuTap .menuTap__content {
     position: fixed;
     z-index: 2;
-    /* <<<<<<< Updated upstream */
+  
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
@@ -11,9 +12,9 @@
 
 .menuTap {
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding-top: 90px;
     overflow: hidden;
+    padding: 0 0 35px;
 }
 
 .menuTap .menuTap__content .tab .tablinks {
@@ -22,8 +23,7 @@
 
 .tab {
     text-align: center;
-    /* position: fixed;
-    z-index: 3; */
+    
 }
 
 .tab button {
@@ -44,6 +44,7 @@
 }
 
 .tab .tablinks.active {
+    color: #fff !important;
     font-family: "Msr-Bold";
 }
 
@@ -53,7 +54,7 @@
     width: 100%;
     height: 2px;
     background: #fff;
-}
+} */
 
 
 /* <!-- ===================WEBSITE APP======================  -->  */

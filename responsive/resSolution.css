@@ -16,22 +16,6 @@
     .white__heading2 {
         padding-bottom: 10px;
     }
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 80px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        display: block;
-        z-index: 100;
-    }
-    .tab {
-        height: 30px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 0 8px;
-        font-size: 10px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     .fulfillment .fulfillment__banner .fulfill__banner-content {
@@ -285,22 +269,6 @@
     .white__heading2 {
         padding-bottom: 10px;
     }
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 80px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        display: block;
-        z-index: 100;
-    }
-    .tab {
-        height: 30px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 0 8px;
-        font-size: 10px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     .fulfillment .fulfillment__banner .fulfill__banner-content {
@@ -552,22 +520,6 @@
     .white__heading2 {
         padding-bottom: 10px;
     }
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 80px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        display: block;
-        z-index: 100;
-    }
-    .tab {
-        height: 30px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 0 8px;
-        font-size: 10px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -796,22 +748,6 @@
     .white__heading2 {
         padding-bottom: 10px;
     }
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 80px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        display: block;
-        z-index: 100;
-    }
-    .tab {
-        height: 30px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 0 8px;
-        font-size: 10px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -1031,21 +967,6 @@
 /*=========================tablet========================== */
 
 @media(min-width: 769px) and (max-width: 960px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 30px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 0 8px;
-        font-size: 10px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -1242,21 +1163,6 @@
 /* ------------------ ecommer-------------- */
 
 @media(min-width: 961px) and (max-width: 991px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 32px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 8px 10px;
-        font-size: 12px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -1449,21 +1355,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1044px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 32px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 8px 10px;
-        font-size: 12px;
-    }
     /* Ec Features */
     .ecommerce__feature {
         padding-bottom: 64px;
@@ -1497,21 +1388,6 @@
 /* ------------------ ecommer end-------------- */
 
 @media(min-width: 1045px) and (max-width: 1089px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 32px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 8px 10px;
-        font-size: 12px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -1708,21 +1584,6 @@
 }
 
 @media(min-width: 1089px) and (max-width: 1200px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 32px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -1909,21 +1770,6 @@
 }
 
 @media(min-width: 1201px) and (max-width: 1300px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 34px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -2108,21 +1954,6 @@
 }
 
 @media(min-width: 1301px) and (max-width: 1500px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 34px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {
@@ -2303,32 +2134,7 @@
 }
 
 @media(min-width: 1501px) and (max-width: 1919px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 90px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        height: 34px;
-        text-align: center;
-    }
-    .tab button {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
     /*======================== FULFILL SOLUTION=====================*/
-    /* fulfill banner */
-    /* .fulfillment .fulfillment__banner .fulfil__banner-img {
-        padding-top: 35px;
-    }
-    .fulfillment .fulfillment__banner .fulfill__banner-content {
-        top: 32%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 50%;
-    } */
     /* fulfill features */
     .fulfillment__features .features__item {
         padding: 0 30px;
@@ -2495,20 +2301,6 @@
 }
 
 @media(min-width: 1920px) {
-    /* MENUTAP */
-    .menuTap {
-        padding-top: 100px;
-    }
-    .menuTap .menuTap__content .tab .tablinks {
-        z-index: 100;
-    }
-    .tab {
-        text-align: center;
-    }
-    .tab button {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
     /*============================= FULFILL SOLUTION======================*/
     /* fulfill banner */
     /* .fulfillment .fulfillment__banner .fulfil__banner-img {

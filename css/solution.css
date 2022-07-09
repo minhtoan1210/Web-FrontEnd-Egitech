@@ -1,9 +1,10 @@
 /* MENUTAP */
 
+
+/* 
 .menuTap .menuTap__content {
     position: fixed;
     z-index: 2;
-    /* <<<<<<< Updated upstream */
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
@@ -22,8 +23,6 @@
 
 .tab {
     text-align: center;
-    /* position: fixed;
-    z-index: 3; */
 }
 
 .tab button {
@@ -54,7 +53,7 @@
     width: 100%;
     height: 2px;
     background: #fff;
-}
+} */
 
 
 /*========================== FULFILL SOLUTION========================*/
