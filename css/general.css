@@ -1,3 +1,126 @@
+/* ------ */
+
+.menuRespon {
+    background: #0F0F0F;
+    display: flex;
+    max-height: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger {
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-16px);
+}
+
+.menu-btn__burger::after {
+    transform: translateY(16px);
+}
+
+
+/* ANIMATION */
+
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(50px);
+    background: transparent;
+    box-shadow: none;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(-35px, 35px);
+}
+
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(-35px, -35px);
+}
+
+
+/* HEADER BURGER */
+
+.menuRespon {
+    padding: 10px 20px 0 0;
+}
+
+.header__burger {
+    color: #fff;
+}
+
+.menuRespon .header__burger ul {
+    text-align: right;
+}
+
+.menuRespon .header__burger ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.menuRespon .header__burger ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuRespon .header__burger .services-dropdown-content a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menuRespon .header__burger .solution-dropdown-content a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menuRespon .header__burger .services-dropdown-content,
+.solution-dropdown-content {
+    padding-right: 30px;
+    display: none;
+    transition: all 1s;
+}
+
+.menuRespon .header__burger .services-dropdown:hover .services-dropdown-content {
+    display: block;
+}
+
+.menuRespon .header__burger .solution-dropdown:hover .solution-dropdown-content {
+    display: block;
+}
+
+.menuRespon .menuREspon-top {
+    align-items: center;
+}
+
+.menuRespon .mobiLogoEgitech img {
+    margin-left: 20px;
+}
+
+
 /* GLOBAL */
 
 * {
@@ -294,66 +417,6 @@ nav.navbar {
 }
 
 
-/* menu burger */
-
-.menu-btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    /* border: 3px solid #fff; */
-}
-
-.menu-btn__burger {
-    display: none;
-    width: 40px;
-    height: 4px;
-    background: #fff;
-    border-radius: 5px;
-    transition: all .5s ease-in-out;
-}
-
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 4px;
-    background: #fff;
-    border-radius: 5px;
-    transition: all .5s ease-in-out;
-}
-
-.menu-btn__burger::before {
-    transform: translateY(-16px);
-}
-
-.menu-btn__burger::after {
-    transform: translateY(16px);
-}
-
-
-/* ANIMATION */
-
-.menu-btn.open .menu-btn__burger {
-    transform: translateX(-50px);
-    background: transparent;
-    box-shadow: none;
-}
-
-.menu-btn.open .menu-btn__burger::before {
-    transform: rotate(45deg) translate(35px, -35px);
-}
-
-.menu-btn.open .menu-btn__burger::after {
-    transform: rotate(-45deg) translate(35px, 35px);
-}
-
-
 /* FOOTER */
 
 footer.footer__content {
@@ -427,10 +490,20 @@ footer {
 
 /* mobile */
 
-
-/* mask */
-
 @media(min-width: 320px) and (max-width: 360px) {
+    /* MENU BURGER */
+    .menu-btn {
+        height: 60px;
+    }
+    .menu-btn__burger {
+        width: 35px;
+        height: 3px;
+    }
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        width: 35px;
+        height: 3px;
+    }
     /* GLOBAL */
     .container {
         width: 90%;
@@ -505,6 +578,9 @@ footer {
         font-size: 10px;
     }
     /* HEADER */
+    header {
+        display: none;
+    }
     header .header__content {
         height: 50px;
     }
@@ -550,6 +626,19 @@ footer {
 }
 
 @media(min-width: 361px) and (max-width: 540px) {
+    /* MENU BURGER */
+    .menu-btn {
+        height: 60px;
+    }
+    .menu-btn__burger {
+        width: 35px;
+        height: 3px;
+    }
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        width: 35px;
+        height: 3px;
+    }
     /* GLOBAL */
     .container {
         width: 90%;
@@ -624,6 +713,9 @@ footer {
         font-size: 10px;
     }
     /* HEADER */
+    header {
+        display: none;
+    }
     header .header__content {
         height: 50px;
     }
@@ -668,6 +760,19 @@ footer {
 /* 575 hinden nav */
 
 @media(min-width: 541px) and (max-width: 574px) {
+    /* MENU BURGER */
+    .menu-btn {
+        height: 80px;
+    }
+    .menu-btn__burger {
+        width: 35px;
+        height: 3px;
+    }
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        width: 35px;
+        height: 3px;
+    }
     /* GLOBAL */
     .container {
         width: 85%;
@@ -741,6 +846,9 @@ footer {
         font-size: 10px;
     }
     /* HEADER */
+    header {
+        display: none;
+    }
     header .header__content {
         height: 80px;
     }
@@ -782,6 +890,19 @@ footer {
 }
 
 @media(min-width: 575px) and (max-width: 768px) {
+    /* MENU BURGER */
+    .menu-btn {
+        height: 80px;
+    }
+    .menu-btn__burger {
+        width: 35px;
+        height: 3px;
+    }
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        width: 35px;
+        height: 3px;
+    }
     /* GLOBAL */
     .container {
         width: 85%;
@@ -904,6 +1025,9 @@ footer {
 /*============================tablet====================================== */
 
 @media(min-width: 769px) and (max-width: 960px) {
+    .menuRespon {
+        display: none;
+    }
     /* GLOBAL */
     .container {
         width: 85%;
@@ -1016,6 +1140,9 @@ footer {
 }
 
 @media(min-width: 961px) and (max-width: 1044px) {
+    .menuRespon {
+        display: none;
+    }
     /* GLOBAL */
     .container {
         width: 85%;
@@ -1114,6 +1241,9 @@ footer {
 }
 
 @media (min-width: 992px) and (max-width: 1044px) {
+    .menuRespon {
+        display: none;
+    }
     /* MENUTAP */
     .menuTap {
         padding-top: 90px;
@@ -1132,6 +1262,9 @@ footer {
 }
 
 @media(min-width: 1045px) and (max-width: 1089px) {
+    .menuRespon {
+        display: none;
+    }
     /* GLOBAL */
     .container {
         width: 85%;
@@ -1218,6 +1351,9 @@ footer {
 
 @media(min-width: 1089px) and (max-width: 1200px) {
     /* GLOBAL */
+    .menuRespon {
+        display: none;
+    }
     .container {
         width: 85%;
         margin: auto;
@@ -1302,6 +1438,9 @@ footer {
 /* 85% */
 
 @media(min-width: 1201px) and (max-width: 1300px) {
+    .menuRespon {
+        display: none;
+    }
     /* GLOBAL */
     .container {
         width: 85%;
@@ -1394,6 +1533,9 @@ footer {
 }
 
 @media(min-width: 1301px) and (max-width: 1500px) {
+    .menuRespon {
+        display: none;
+    }
     /* GLOBAL */
     .container {
         width: 80%;
@@ -1479,6 +1621,9 @@ footer {
 /* 80% */
 
 @media(min-width: 1501px) and (max-width: 1919px) {
+    .menuRespon {
+        display: none;
+    }
     /* GLOBAL */
     .container {
         width: 80%;
@@ -1564,6 +1709,9 @@ footer {
 /* 75% */
 
 @media(min-width: 1920px) {
+    .menuRespon {
+        display: none;
+    }
     /* GLOBAL */
     * {
         box-sizing: border-box;
@@ -1680,6 +1828,3 @@ footer {
         font-size: 14px;
     }
 }
-
-
-/* ------ */
