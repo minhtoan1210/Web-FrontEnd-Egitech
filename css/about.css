@@ -1,17 +1,6 @@
 body {
     width: 100%;
     max-width: 1920px;
-    -webkit-font-smoothing: antialiased;
-    margin: auto;
-    font-size: 12px;
-    font-family: "Arial";
-    line-height: normal;
-    color: #000;
-    text-transform: initial;
-    letter-spacing: normal;
-    font-weight: normal;
-    background: #FFFFFF;
-    position: relative;
     overflow-x: hidden;
 }
 
