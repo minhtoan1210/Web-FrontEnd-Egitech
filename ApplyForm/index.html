@@ -26,45 +26,30 @@
 </head>
 
 <body>
-    <!-- Header mobile -->
-    <div class="menuRespon">
-        <div class="row menuREspon-top">
-            <div class=" col-6 mobiLogoEgitech">
-                <a href="/Homepage/"><img src="/img/EgitechLogo.png" alt="logoEgitech"></a>
-            </div>
-            <div class=" col-6 menu-btn ">
-                <div class="menu-btn__burger"></div>
-            </div>
-        </div>
-        <div class="header__burger">
-            <nav>
-                <ul>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="wrapper container">
+                <div class="logo">
+                    <a class="navbar-brand " href="/Homepage/"><img class="img-fluid" src="/img/EgitechLogo.png" alt="logoEgitech"></a>
+                </div>
+                <input type="radio" name="slider" id="menu-btn">
+                <input type="radio" name="slider" id="close-btn">
+                <ul class="nav-links">
+                    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
                     <li class="nav-item">
                         <a class="nav-link homepage" href="/Homepage/">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link aboutUs" href="/About/">ABOUT US</a>
                     </li>
-                    <li class="nav-item services-dropdown">
-                        <a class="nav-link services" href="/Services/">SERVICES <i class="fa fa-angle-down"></i></a>
-                        <ul class="services-dropdown-content">
-                            <li class="tablinks active" onclick="openMenu(event, 'S_web')"> <a href="#">WEB APP DEVELOPMENT</a></li>
-                            <li class="tablinks" onclick="openMenu(event, 'S_mobile')"><a href="#">MOBILE APP DEVELOPMENT</a></li>
-                            <li class="tablinks" onclick="openMenu(event, 'S_blockchain')"><a href="#">BLOCKCHAIN DEVELOPMENT</a></li>
-                        </ul>
-                    </li>
 
-                    <li class="nav-item solution-dropdown ">
-                        <a class="nav-link solution" href="/Solution/">SOLUTION <i class="fa fa-angle-down"></i></a>
-                        <ul class="solution-dropdown-content">
-                            <li class="tablinks active" onclick="openMenu(event, 'S_fulfillment')"> <a href="#">FULFILLMENT SOLUTION</a></li>
-                            <li class="tablinks" onclick="openMenu(event, 'S_ecommerce')"><a href="#">E-COMMERCE SOLUTION</a></li>
-                            <li class="tablinks" onclick="openMenu(event, 'S_fintech')"><a href="#">FINTECH SOLUTION</a></li>
-                            <li class="tablinks" onclick="openMenu(event, 'S_estate')"> <a href="#">REAL ESTATE SOLUTION</a></li>
-                            <li class="tablinks" onclick="openMenu(event, 'S_blockchain')"><a href="#">BLOCKCHAIN SOLUTION</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a href="/Services/" class="desktop-item nav-link services ">SERVICES  </a>
                     </li>
-
+                    <li class="nav-item">
+                        <a href="/Solution/" class="desktop-item nav-link solution">SOLUTION </a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link blog " href="/Blog/">BLOG</a>
                     </li>
@@ -74,55 +59,11 @@
                     <li class="nav-item">
                         <a class="nav-link contact" href="/Contact/">CONTACT</a>
                     </li>
+
                 </ul>
-            </nav>
-        </div>
-    </div>
-    <!-- End Header mobile-->
-    <!-- Header -->
-    <header class="header" id="headerEgitech">
-
-        <div class="header__content ">
-
-            <nav class=" navbar navbar-expand-md ">
-                <a class="navbar-brand " href="/Homepage/"><img class="img-fluid" src="/img/EgitechLogo.png" alt="logoEgitech"></a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEgitech" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-
-        <i class="fa fa-bars"></i>
-        <!-- <div class="menu-btn">
-            <div class="menu-btn__burger"></div>
-        </div> -->
-        </button>
-                <div class="collapse navbar-collapse " id="navbarEgitech">
-                    <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item">
-                            <a id="ahome" class="nav-link homepage" href="/Homepage/">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link aboutUs" href="/About/">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link services" href="/Services/">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link solution" href="/Solution/">SOLUTION</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link blog " href="/Blog/">BLOG</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link carrer" href="/Career/">CARRER</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link contact" href="/Contact/">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-
-        </div>
+                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+            </div>
+        </nav>
     </header>
     <!-- Apply now -->
     <div class="applyForm section ">
@@ -264,9 +205,9 @@
     <script src="/js/libs/_jquery.js"></script>
     <!-- JS -->
     <script src="/js/header.js"></script>
+    <script src="/js/menuTap.js"></script>
     <script src="/js/applyNow.js"></script>
     <script src="/js/validation.js"></script>
-    <script src="/js/main.js"></script>
     <!-- akar font -->
     <script src="https://unpkg.com/akar-icons-fonts"></script>
 

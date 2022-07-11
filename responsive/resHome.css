@@ -396,6 +396,11 @@
     /*============================tablet====================================== */
     
     @media (min-width:768px) and (max-width:768.98px) {
+        /* BANNER */
+        .banner__content-img img {
+            max-width: 100%;
+            padding-top: 70px;
+        }
         /* SERVICES */
         .ourServices .ourServices__content .serv__item {
             padding: 0 20px;
@@ -415,6 +420,10 @@
     
     @media(min-width: 769px) and (max-width: 960px) {
         /* BANNER */
+        .banner__content-img img {
+            max-width: 100%;
+            padding-top: 70px;
+        }
         .banner .banner__content p:first-child {
             font-size: 12px;
         }
@@ -807,7 +816,7 @@
         }
         .banner .banner__content p:last-child {
             font-size: 14px;
-            bottom: -180%;
+            bottom: -140%;
         }
         /* INFO */
         .info .info__content .info__text {

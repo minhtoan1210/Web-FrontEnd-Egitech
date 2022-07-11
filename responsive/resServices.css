@@ -870,6 +870,9 @@
                 .blockchainDev .block__banner .block__banner-content .block-img img {
                     height: 50px;
                 }
+                .blockchainDev .block__banner .block__banner-content .hide__block__para {
+                    display: none;
+                }
                 /* block info */
                 .block__info .block__info__content .block__info__title {
                     padding-bottom: 20px;

@@ -282,7 +282,7 @@
     @media(min-width: 541px) and (max-width: 574px) {
         /* About banner */
         .about__banner {
-            padding-top: 80px;
+            padding-top: 70px;
         }
         .about__banner .about__banner-content {
             top: 40%;
@@ -413,7 +413,7 @@
     @media(min-width: 575px) and (max-width: 768px) {
         /* About banner */
         .about__banner {
-            padding-top: 80px;
+            padding-top: 70px;
         }
         .about__banner .about__banner-content {
             top: 40%;
@@ -542,7 +542,7 @@
     @media(min-width: 769px) and (max-width: 960px) {
         /* About banner */
         .about__banner {
-            padding-top: 80px;
+            padding-top: 70px;
         }
         .about__banner .about__banner-content {
             top: 30%;

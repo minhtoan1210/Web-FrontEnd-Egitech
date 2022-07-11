@@ -71,7 +71,7 @@
     
     @media(min-width: 769px) and (max-width: 960px) {
         .career {
-            padding-top: 130px;
+            padding-top: 100px;
         }
         .career .career__content {
             padding-top: 20px;
