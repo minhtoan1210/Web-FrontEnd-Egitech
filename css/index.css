@@ -208,6 +208,10 @@
     margin-bottom: 30px;
 }
 
+.customer .customer__content .row {
+    justify-content: center;
+}
+
 .customer .customer__content .customer__item {
     padding: 0 20px;
 }
