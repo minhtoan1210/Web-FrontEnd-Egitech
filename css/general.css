@@ -472,20 +472,21 @@
                         margin: 15px 10px;
                     }
                     /* MENUTAP */
+                    .menuTap .menuTap__content .tab .tabMobileSolution {
+                        font-size: 12px;
+                        padding: 0 20px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabMobile {
+                        font-size: 16px;
+                        padding: 0 30px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabDesk {
+                        display: none;
+                    }
                     .menuTap {
                         padding-top: 50px;
-                    }
-                    .menuTap .menuTap__content .tab .tablinks {
-                        display: block;
-                        z-index: 100;
-                    }
-                    .tab {
-                        height: 30px;
-                        text-align: center;
-                    }
-                    .tab button {
-                        padding: 0 8px;
-                        font-size: 10px;
                     }
                     /* FOOTER */
                     .footer .footer__content .footer-brand img.footer-egitech {
@@ -613,20 +614,21 @@
                         margin: 15px 10px;
                     }
                     /* MENUTAP */
+                    .menuTap .menuTap__content .tab .tabMobileSolution {
+                        font-size: 14px;
+                        padding: 0 20px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabMobile {
+                        font-size: 16px;
+                        padding: 0 50px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabDesk {
+                        display: none;
+                    }
                     .menuTap {
                         padding-top: 50px;
-                    }
-                    .menuTap .menuTap__content .tab .tablinks {
-                        display: block;
-                        z-index: 100;
-                    }
-                    .tab {
-                        height: 30px;
-                        text-align: center;
-                    }
-                    .tab button {
-                        padding: 0 8px;
-                        font-size: 10px;
                     }
                     /* FOOTER */
                     .footer .footer__content {
@@ -747,20 +749,21 @@
                         margin: 15px 10px;
                     }
                     /* MENUTAP */
+                    .menuTap .menuTap__content .tab .tabMobileSolution {
+                        font-size: 16px;
+                        padding: 0 40px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabMobile {
+                        font-size: 16px;
+                        padding: 0 50px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabDesk {
+                        display: none;
+                    }
                     .menuTap {
                         padding-top: 70px;
-                    }
-                    .menuTap .menuTap__content .tab .tablinks {
-                        display: block;
-                        z-index: 100;
-                    }
-                    .tab {
-                        height: 30px;
-                        text-align: center;
-                    }
-                    .tab button {
-                        padding: 0 8px;
-                        font-size: 10px;
                     }
                     /* FOOTER */
                     .footer .footer__content {
@@ -881,19 +884,21 @@
                         margin: 15px 10px;
                     }
                     /* MENUTAP */
+                    .menuTap .menuTap__content .tab .tabMobileSolution {
+                        font-size: 16px;
+                        padding: 0 50px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabMobile {
+                        font-size: 16px;
+                        padding: 0 50px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .menuTap .menuTap__content .tab .tabDesk {
+                        display: none;
+                    }
                     .menuTap {
                         padding-top: 70px;
-                    }
-                    .menuTap .menuTap__content .tab .tablinks {
-                        z-index: 100;
-                    }
-                    .tab {
-                        height: 30px;
-                        text-align: center;
-                    }
-                    .tab button {
-                        padding: 0 8px;
-                        font-size: 10px;
                     }
                     /* FOOTER */
                     .footer .footer__content {

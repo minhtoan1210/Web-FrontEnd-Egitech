@@ -68,10 +68,19 @@
     <section class="menuTap ">
         <div class="menuTap__content">
             <div class="tab">
-                <button class="tablinks active" onclick="openMenu(event, 'S_web')">WEB APP DEVELOPMENT</button>
-                <button class="tablinks" onclick="openMenu(event, 'S_mobile')">MOBILE APP DEVELOPMENT</button>
-                <button class="tablinks" onclick="openMenu(event, 'S_blockchain')">BLOCKCHAIN DEVELOPMENT</button>
 
+                <button class="tabMobile tablinks active" onclick="openMenu(event, 'S_web')"> <i class="fa fa-desktop"></i> </button>
+                <button class="tabDesk tablinks active" onclick="openMenu(event, 'S_web')">WEB APP DEVELOPMENT</button>
+
+                <!-- --- -->
+                <button class="tabMobile tablinks" onclick="openMenu(event, 'S_mobile')"> <i class="fa fa-mobile-alt"></i> </button>
+
+                <button class="tabDesk tablinks" onclick="openMenu(event, 'S_mobile')">MOBILE APP DEVELOPMENT</button>
+
+                <!-- --- -->
+                <button class="tabMobile tablinks" onclick="openMenu(event, 'S_blockchain')"><i class="fab fa-connectdevelop"></i></button>
+
+                <button class="tabDesk tablinks" onclick="openMenu(event, 'S_blockchain')">BLOCKCHAIN DEVELOPMENT</button>
             </div>
         </div>
     </section>
